@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalize.kr/schemas/gov-org-history/institutions.schema.json",
+  "title": "Institution Chart List",
+  "type": "object",
+  "required": ["source", "count", "organizations"],
+  "properties": {
+    "source": { "type": "object" },
+    "count": { "type": "integer", "minimum": 0 },
+    "organizations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "category", "org_code", "chart_id", "detail_url", "installation_basis", "related_laws"],
+        "properties": {
+          "name": { "type": "string" },
+          "category": { "type": "string" },
+          "org_code": { "type": "string" },
+          "chart_id": { "type": "string" },
+          "detail_url": { "type": "string" },
+          "installation_basis": { "type": "array" },
+          "related_laws": { "type": "array" }
+        }
+      }
+    }
+  }
+}
+

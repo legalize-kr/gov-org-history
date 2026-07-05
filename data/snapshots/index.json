@@ -1,0 +1,2080 @@
+{
+  "source": {
+    "endpoint": "https://org.go.kr/oam/selectEfYdList.do",
+    "fetched_at": "2026-07-05T06:36:39+00:00"
+  },
+  "available_dates": [
+    {
+      "date_code": "20260102",
+      "effective_date": "2026-01-02",
+      "label": "정부조직법 <2026-01-02>",
+      "source": {
+        "cd": "20260102",
+        "nm": "정부조직법 <2026-01-02>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20251001",
+      "effective_date": "2025-10-01",
+      "label": "정부조직법 <2025-10-01>",
+      "source": {
+        "cd": "20251001",
+        "nm": "정부조직법 <2025-10-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20240527",
+      "effective_date": "2024-05-27",
+      "label": "우주항공청의 설치 및 운영에 관한 특별법 <2024-05-27>",
+      "source": {
+        "cd": "20240527",
+        "nm": "우주항공청의 설치 및 운영에 관한 특별법 <2024-05-27>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20240517",
+      "effective_date": "2024-05-17",
+      "label": "정부조직법 <2024-05-17>",
+      "source": {
+        "cd": "20240517",
+        "nm": "정부조직법 <2024-05-17>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20230605",
+      "effective_date": "2023-06-05",
+      "label": "정부조직법 <2023-06-05>",
+      "source": {
+        "cd": "20230605",
+        "nm": "정부조직법 <2023-06-05>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20220721",
+      "effective_date": "2022-07-21",
+      "label": "국가교육위원회 설치 및 운영에 관한 법률 <2022-07-21>",
+      "source": {
+        "cd": "20220721",
+        "nm": "국가교육위원회 설치 및 운영에 관한 법률 <2022-07-21>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20200912",
+      "effective_date": "2020-09-12",
+      "label": "정부조직법 <2020-09-12>",
+      "source": {
+        "cd": "20200912",
+        "nm": "정부조직법 <2020-09-12>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20200805",
+      "effective_date": "2020-08-05",
+      "label": "개인정보 보호법 <2020-08-05>",
+      "source": {
+        "cd": "20200805",
+        "nm": "개인정보 보호법 <2020-08-05>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20200715",
+      "effective_date": "2020-07-15",
+      "label": "고위공직자범죄수사처 설치 및 운영에 관한 법률 <2020-07-15>",
+      "source": {
+        "cd": "20200715",
+        "nm": "고위공직자범죄수사처 설치 및 운영에 관한 법률 <2020-07-15>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20170726",
+      "effective_date": "2017-07-26",
+      "label": "정부조직법 <2017-07-26>",
+      "source": {
+        "cd": "20170726",
+        "nm": "정부조직법 <2017-07-26>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20141119",
+      "effective_date": "2014-11-19",
+      "label": "정부조직법 <2014-11-19>",
+      "source": {
+        "cd": "20141119",
+        "nm": "정부조직법 <2014-11-19>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20140619",
+      "effective_date": "2014-06-19",
+      "label": "특별감찰관법 <2014-06-19>",
+      "source": {
+        "cd": "20140619",
+        "nm": "특별감찰관법 <2014-06-19>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20130912",
+      "effective_date": "2013-09-12",
+      "label": "새만금사업촉진을위한특별법 <2013-09-12>",
+      "source": {
+        "cd": "20130912",
+        "nm": "새만금사업촉진을위한특별법 <2013-09-12>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20130323",
+      "effective_date": "2013-03-23",
+      "label": "정부조직법 <2013-03-23>",
+      "source": {
+        "cd": "20130323",
+        "nm": "정부조직법 <2013-03-23>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20111026",
+      "effective_date": "2011-10-26",
+      "label": "원자력안전위원회의 설치 및 운영에 관한 법률 <2011-10-26>",
+      "source": {
+        "cd": "20111026",
+        "nm": "원자력안전위원회의 설치 및 운영에 관한 법률 <2011-10-26>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20110328",
+      "effective_date": "2011-03-28",
+      "label": "과학기술기본법 <2011-03-28>",
+      "source": {
+        "cd": "20110328",
+        "nm": "과학기술기본법 <2011-03-28>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20100705",
+      "effective_date": "2010-07-05",
+      "label": "정부조직법 <2010-07-05>",
+      "source": {
+        "cd": "20100705",
+        "nm": "정부조직법 <2010-07-05>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20100319",
+      "effective_date": "2010-03-19",
+      "label": "정부조직법 <2010-03-19>",
+      "source": {
+        "cd": "20100319",
+        "nm": "정부조직법 <2010-03-19>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20080906",
+      "effective_date": "2008-09-06",
+      "label": "국가교육과학기술자문회의법 <2008-09-06>",
+      "source": {
+        "cd": "20080906",
+        "nm": "국가교육과학기술자문회의법 <2008-09-06>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20080229",
+      "effective_date": "2008-02-29",
+      "label": "정부조직법 <2008-02-29>",
+      "source": {
+        "cd": "20080229",
+        "nm": "정부조직법 <2008-02-29>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20070728",
+      "effective_date": "2007-07-28",
+      "label": "비상대비자원 관리법 <2007-07-28>",
+      "source": {
+        "cd": "20070728",
+        "nm": "비상대비자원 관리법 <2007-07-28>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20060330",
+      "effective_date": "2006-03-30",
+      "label": "청소년기본법 <2006-03-30>",
+      "source": {
+        "cd": "20060330",
+        "nm": "청소년기본법 <2006-03-30>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20060101",
+      "effective_date": "2006-01-01",
+      "label": "정부조직법 <2006-01-01>",
+      "source": {
+        "cd": "20060101",
+        "nm": "정부조직법 <2006-01-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20051030",
+      "effective_date": "2005-10-30",
+      "label": "국민고충처리위원회의 설치 및 운영에 관한 법률 <2005-10-30>",
+      "source": {
+        "cd": "20051030",
+        "nm": "국민고충처리위원회의 설치 및 운영에 관한 법률 <2005-10-30>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20050722",
+      "effective_date": "2005-07-22",
+      "label": "정부조직법 <2005-07-22>",
+      "source": {
+        "cd": "20050722",
+        "nm": "정부조직법 <2005-07-22>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20050721",
+      "effective_date": "2005-07-21",
+      "label": "부패방지법 <2005-07-21>",
+      "source": {
+        "cd": "20050721",
+        "nm": "부패방지법 <2005-07-21>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20050427",
+      "effective_date": "2005-04-27",
+      "label": "청소년기본법 <2005-04-27>",
+      "source": {
+        "cd": "20050427",
+        "nm": "청소년기본법 <2005-04-27>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20050324",
+      "effective_date": "2005-03-24",
+      "label": "정부조직법 <2005-03-24>",
+      "source": {
+        "cd": "20050324",
+        "nm": "정부조직법 <2005-03-24>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20050101",
+      "effective_date": "2005-01-01",
+      "label": "정부조직법 <2005-01-01>",
+      "source": {
+        "cd": "20050101",
+        "nm": "정부조직법 <2005-01-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20040923",
+      "effective_date": "2004-09-23",
+      "label": "정부조직법 <2004-09-23>",
+      "source": {
+        "cd": "20040923",
+        "nm": "정부조직법 <2004-09-23>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20040311",
+      "effective_date": "2004-03-11",
+      "label": "정부조직법 <2004-03-11>",
+      "source": {
+        "cd": "20040311",
+        "nm": "정부조직법 <2004-03-11>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20020125",
+      "effective_date": "2002-01-25",
+      "label": "부패방지법 <2002-01-25>",
+      "source": {
+        "cd": "20020125",
+        "nm": "부패방지법 <2002-01-25>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20011125",
+      "effective_date": "2001-11-25",
+      "label": "국가인권위원회법 <2001-11-25>",
+      "source": {
+        "cd": "20011125",
+        "nm": "국가인권위원회법 <2001-11-25>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "20010129",
+      "effective_date": "2001-01-29",
+      "label": "정부조직법 <2001-01-29>",
+      "source": {
+        "cd": "20010129",
+        "nm": "정부조직법 <2001-01-29>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19990831",
+      "effective_date": "1999-08-31",
+      "label": "국민경제자문회의법 <1999-08-31>",
+      "source": {
+        "cd": "19990831",
+        "nm": "국민경제자문회의법 <1999-08-31>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19990524",
+      "effective_date": "1999-05-24",
+      "label": "정부조직법 <1999-05-24>",
+      "source": {
+        "cd": "19990524",
+        "nm": "정부조직법 <1999-05-24>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19990121",
+      "effective_date": "1999-01-21",
+      "label": "정부조직법 <1999-01-21>",
+      "source": {
+        "cd": "19990121",
+        "nm": "정부조직법 <1999-01-21>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19980525",
+      "effective_date": "1998-05-25",
+      "label": "비상대비자원관리법 <1998-05-25>",
+      "source": {
+        "cd": "19980525",
+        "nm": "비상대비자원관리법 <1998-05-25>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19980401",
+      "effective_date": "1998-04-01",
+      "label": "금융감독기구의설치등에관한법률 <1998-04-01>",
+      "source": {
+        "cd": "19980401",
+        "nm": "금융감독기구의설치등에관한법률 <1998-04-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19980228",
+      "effective_date": "1998-02-28",
+      "label": "정부조직법 <1998-02-28>",
+      "source": {
+        "cd": "19980228",
+        "nm": "정부조직법 <1998-02-28>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19960808",
+      "effective_date": "1996-08-08",
+      "label": "정부조직법 <1996-08-08>",
+      "source": {
+        "cd": "19960808",
+        "nm": "정부조직법 <1996-08-08>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19960209",
+      "effective_date": "1996-02-09",
+      "label": "정부조직법 <1996-02-09>",
+      "source": {
+        "cd": "19960209",
+        "nm": "정부조직법 <1996-02-09>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19941223",
+      "effective_date": "1994-12-23",
+      "label": "정부조직법 <1994-12-23>",
+      "source": {
+        "cd": "19941223",
+        "nm": "정부조직법 <1994-12-23>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19930306",
+      "effective_date": "1993-03-06",
+      "label": "정부조직법 <1993-03-06>",
+      "source": {
+        "cd": "19930306",
+        "nm": "정부조직법 <1993-03-06>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19910308",
+      "effective_date": "1991-03-08",
+      "label": "국가과학기술자문회의법 <1991-03-08>",
+      "source": {
+        "cd": "19910308",
+        "nm": "국가과학기술자문회의법 <1991-03-08>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19901227",
+      "effective_date": "1990-12-27",
+      "label": "정부조직법 <1990-12-27>",
+      "source": {
+        "cd": "19901227",
+        "nm": "정부조직법 <1990-12-27>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19891230",
+      "effective_date": "1989-12-30",
+      "label": "정부조직법 <1989-12-30>",
+      "source": {
+        "cd": "19891230",
+        "nm": "정부조직법 <1989-12-30>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19890429",
+      "effective_date": "1989-04-29",
+      "label": "국가원로자문회의법 <1989-04-29>",
+      "source": {
+        "cd": "19890429",
+        "nm": "국가원로자문회의법 <1989-04-29>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19890228",
+      "effective_date": "1989-02-28",
+      "label": "사회정화위원회설치령 <1989-02-28>",
+      "source": {
+        "cd": "19890228",
+        "nm": "사회정화위원회설치령 <1989-02-28>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19890101",
+      "effective_date": "1989-01-01",
+      "label": "전자통신개발추진위원회설치령 <1989-01-01>",
+      "source": {
+        "cd": "19890101",
+        "nm": "전자통신개발추진위원회설치령 <1989-01-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19880225",
+      "effective_date": "1988-02-25",
+      "label": "대한민국헌법 <1988-02-25>",
+      "source": {
+        "cd": "19880225",
+        "nm": "대한민국헌법 <1988-02-25>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19870401",
+      "effective_date": "1987-04-01",
+      "label": "한국전매공사법 <1987-04-01>",
+      "source": {
+        "cd": "19870401",
+        "nm": "한국전매공사법 <1987-04-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19870101",
+      "effective_date": "1987-01-01",
+      "label": "정부조직법 <1987-01-01>",
+      "source": {
+        "cd": "19870101",
+        "nm": "정부조직법 <1987-01-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19860308",
+      "effective_date": "1986-03-08",
+      "label": "해외협력위원회설치령 <1986-03-08>",
+      "source": {
+        "cd": "19860308",
+        "nm": "해외협력위원회설치령 <1986-03-08>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19850101",
+      "effective_date": "1985-01-01",
+      "label": "정부조직법 <1985-01-01>",
+      "source": {
+        "cd": "19850101",
+        "nm": "정부조직법 <1985-01-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19841105",
+      "effective_date": "1984-11-05",
+      "label": "비상대비자원관리법 <1984-11-05>",
+      "source": {
+        "cd": "19841105",
+        "nm": "비상대비자원관리법 <1984-11-05>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19840421",
+      "effective_date": "1984-04-21",
+      "label": "해외협력위원회설치령 <1984-04-21>",
+      "source": {
+        "cd": "19840421",
+        "nm": "해외협력위원회설치령 <1984-04-21>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19830127",
+      "effective_date": "1983-01-27",
+      "label": "해외협력위원회설치령 <1983-01-27>",
+      "source": {
+        "cd": "19830127",
+        "nm": "해외협력위원회설치령 <1983-01-27>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19820320",
+      "effective_date": "1982-03-20",
+      "label": "정부조직법 <1982-03-20>",
+      "source": {
+        "cd": "19820320",
+        "nm": "정부조직법 <1982-03-20>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19811231",
+      "effective_date": "1981-12-31",
+      "label": "정부조직법 <1981-12-31>",
+      "source": {
+        "cd": "19811231",
+        "nm": "정부조직법 <1981-12-31>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19810918",
+      "effective_date": "1981-09-18",
+      "label": "특정지역종합개발추진위원회설치령 <1981-09-18>",
+      "source": {
+        "cd": "19810918",
+        "nm": "특정지역종합개발추진위원회설치령 <1981-09-18>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19810408",
+      "effective_date": "1981-04-08",
+      "label": "정부조직법 <1981-04-08>",
+      "source": {
+        "cd": "19810408",
+        "nm": "정부조직법 <1981-04-08>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19810314",
+      "effective_date": "1981-03-14",
+      "label": "평화통일정책자문회의법 <1981-03-14>",
+      "source": {
+        "cd": "19810314",
+        "nm": "평화통일정책자문회의법 <1981-03-14>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19801218",
+      "effective_date": "1980-12-18",
+      "label": "국정자문회의법 <1980-12-18>",
+      "source": {
+        "cd": "19801218",
+        "nm": "국정자문회의법 <1980-12-18>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19801028",
+      "effective_date": "1980-10-28",
+      "label": "사회정화위원회설치령 <1980-10-28>",
+      "source": {
+        "cd": "19801028",
+        "nm": "사회정화위원회설치령 <1980-10-28>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19800918",
+      "effective_date": "1980-09-18",
+      "label": "중화학공업추진위원회설치령 <1980-09-18>",
+      "source": {
+        "cd": "19800918",
+        "nm": "중화학공업추진위원회설치령 <1980-09-18>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19800101",
+      "effective_date": "1980-01-01",
+      "label": "정부조직법 <1980-01-01>",
+      "source": {
+        "cd": "19800101",
+        "nm": "정부조직법 <1980-01-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19791227",
+      "effective_date": "1979-12-27",
+      "label": "대통령경호실법시행령 <1979-12-27>",
+      "source": {
+        "cd": "19791227",
+        "nm": "대통령경호실법시행령 <1979-12-27>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19790101",
+      "effective_date": "1979-01-01",
+      "label": "특정지역종합개발추진위원회설치령 <1979-01-01>",
+      "source": {
+        "cd": "19790101",
+        "nm": "특정지역종합개발추진위원회설치령 <1979-01-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19771216",
+      "effective_date": "1977-12-16",
+      "label": "정부조직법 <1977-12-16>",
+      "source": {
+        "cd": "19771216",
+        "nm": "정부조직법 <1977-12-16>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19771115",
+      "effective_date": "1977-11-15",
+      "label": "전자통신개발추진위원회설치령 <1977-11-15>",
+      "source": {
+        "cd": "19771115",
+        "nm": "전자통신개발추진위원회설치령 <1977-11-15>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19761231",
+      "effective_date": "1976-12-31",
+      "label": "정부조직법 <1976-12-31>",
+      "source": {
+        "cd": "19761231",
+        "nm": "정부조직법 <1976-12-31>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19760131",
+      "effective_date": "1976-01-31",
+      "label": "정부조직법 <1976-01-31>",
+      "source": {
+        "cd": "19760131",
+        "nm": "정부조직법 <1976-01-31>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19750908",
+      "effective_date": "1975-09-08",
+      "label": "무임소장관실직제 <1975-09-08>",
+      "source": {
+        "cd": "19750908",
+        "nm": "무임소장관실직제 <1975-09-08>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19741114",
+      "effective_date": "1974-11-14",
+      "label": "대통령경호실법시행령 <1974-11-14>",
+      "source": {
+        "cd": "19741114",
+        "nm": "대통령경호실법시행령 <1974-11-14>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19730514",
+      "effective_date": "1973-05-14",
+      "label": "중화학공업추진위원회설치령 <1973-05-14>",
+      "source": {
+        "cd": "19730514",
+        "nm": "중화학공업추진위원회설치령 <1973-05-14>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19730303",
+      "effective_date": "1973-03-03",
+      "label": "정부조직법 <1973-03-03>",
+      "source": {
+        "cd": "19730303",
+        "nm": "정부조직법 <1973-03-03>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19730115",
+      "effective_date": "1973-01-15",
+      "label": "정부조직법 <1973-01-15>",
+      "source": {
+        "cd": "19730115",
+        "nm": "정부조직법 <1973-01-15>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19700803",
+      "effective_date": "1970-08-03",
+      "label": "정부조직법 <1970-08-03>",
+      "source": {
+        "cd": "19700803",
+        "nm": "정부조직법 <1970-08-03>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19680724",
+      "effective_date": "1968-07-24",
+      "label": "정부조직법 <1968-07-24>",
+      "source": {
+        "cd": "19680724",
+        "nm": "정부조직법 <1968-07-24>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19670330",
+      "effective_date": "1967-03-30",
+      "label": "정부조직법 <1967-03-30>",
+      "source": {
+        "cd": "19670330",
+        "nm": "정부조직법 <1967-03-30>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19670101",
+      "effective_date": "1967-01-01",
+      "label": "정부조직법 <1967-01-01>",
+      "source": {
+        "cd": "19670101",
+        "nm": "정부조직법 <1967-01-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19660228",
+      "effective_date": "1966-02-28",
+      "label": "정부조직법 <1966-02-28>",
+      "source": {
+        "cd": "19660228",
+        "nm": "정부조직법 <1966-02-28>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19640814",
+      "effective_date": "1964-08-14",
+      "label": "정부조직법 <1964-08-14>",
+      "source": {
+        "cd": "19640814",
+        "nm": "정부조직법 <1964-08-14>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19631217",
+      "effective_date": "1963-12-17",
+      "label": "정부조직법 <1963-12-17>",
+      "source": {
+        "cd": "19631217",
+        "nm": "정부조직법 <1963-12-17>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19630901",
+      "effective_date": "1963-09-01",
+      "label": "정부조직법 <1963-09-01>",
+      "source": {
+        "cd": "19630901",
+        "nm": "정부조직법 <1963-09-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19620618",
+      "effective_date": "1962-06-18",
+      "label": "정부조직법 <1962-06-18>",
+      "source": {
+        "cd": "19620618",
+        "nm": "정부조직법 <1962-06-18>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19620416",
+      "effective_date": "1962-04-16",
+      "label": "원호처설치법 <1962-04-16>",
+      "source": {
+        "cd": "19620416",
+        "nm": "원호처설치법 <1962-04-16>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19620401",
+      "effective_date": "1962-04-01",
+      "label": "정부조직법 <1962-04-01>",
+      "source": {
+        "cd": "19620401",
+        "nm": "정부조직법 <1962-04-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19611230",
+      "effective_date": "1961-12-30",
+      "label": "특허국설치법 <1961-12-30>",
+      "source": {
+        "cd": "19611230",
+        "nm": "특허국설치법 <1961-12-30>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19611002",
+      "effective_date": "1961-10-02",
+      "label": "정부조직법 <1961-10-02>",
+      "source": {
+        "cd": "19611002",
+        "nm": "정부조직법 <1961-10-02>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19610909",
+      "effective_date": "1961-09-09",
+      "label": "심계원법 <1961-09-09>",
+      "source": {
+        "cd": "19610909",
+        "nm": "심계원법 <1961-09-09>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19610825",
+      "effective_date": "1961-08-25",
+      "label": "정부조직법 <1961-08-25>",
+      "source": {
+        "cd": "19610825",
+        "nm": "정부조직법 <1961-08-25>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19610822",
+      "effective_date": "1961-08-22",
+      "label": "정부조직법 <1961-08-22>",
+      "source": {
+        "cd": "19610822",
+        "nm": "정부조직법 <1961-08-22>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19610722",
+      "effective_date": "1961-07-22",
+      "label": "정부조직법 <1961-07-22>",
+      "source": {
+        "cd": "19610722",
+        "nm": "정부조직법 <1961-07-22>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19610705",
+      "effective_date": "1961-07-05",
+      "label": "군사원호청설치법 <1961-07-05>",
+      "source": {
+        "cd": "19610705",
+        "nm": "군사원호청설치법 <1961-07-05>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19610622",
+      "effective_date": "1961-06-22",
+      "label": "정부조직법 <1961-06-22>",
+      "source": {
+        "cd": "19610622",
+        "nm": "정부조직법 <1961-06-22>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19610616",
+      "effective_date": "1961-06-16",
+      "label": "정부조직법 <1961-06-16>",
+      "source": {
+        "cd": "19610616",
+        "nm": "정부조직법 <1961-06-16>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19600901",
+      "effective_date": "1960-09-01",
+      "label": "사정위원회규정 <1960-09-01>",
+      "source": {
+        "cd": "19600901",
+        "nm": "사정위원회규정 <1960-09-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19600701",
+      "effective_date": "1960-07-01",
+      "label": "정부조직법 <1960-07-01>",
+      "source": {
+        "cd": "19600701",
+        "nm": "정부조직법 <1960-07-01>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19580311",
+      "effective_date": "1958-03-11",
+      "label": "원자력법 <1958-03-11>",
+      "source": {
+        "cd": "19580311",
+        "nm": "원자력법 <1958-03-11>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19570212",
+      "effective_date": "1957-02-12",
+      "label": "농사교도법 <1957-02-12>",
+      "source": {
+        "cd": "19570212",
+        "nm": "농사교도법 <1957-02-12>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19561231",
+      "effective_date": "1956-12-31",
+      "label": "귀속재산처리법 <1956-12-31>",
+      "source": {
+        "cd": "19561231",
+        "nm": "귀속재산처리법 <1956-12-31>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19550307",
+      "effective_date": "1955-03-07",
+      "label": "사정위원회규정 <1955-03-07>",
+      "source": {
+        "cd": "19550307",
+        "nm": "사정위원회규정 <1955-03-07>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19550207",
+      "effective_date": "1955-02-07",
+      "label": "정부조직법 <1955-02-07>",
+      "source": {
+        "cd": "19550207",
+        "nm": "정부조직법 <1955-02-07>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19540923",
+      "effective_date": "1954-09-23",
+      "label": "구황실재산법 <1954-09-23>",
+      "source": {
+        "cd": "19540923",
+        "nm": "구황실재산법 <1954-09-23>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19511223",
+      "effective_date": "1951-12-23",
+      "label": "전매청과지방전매관서설치법 <1951-12-23>",
+      "source": {
+        "cd": "19511223",
+        "nm": "전매청과지방전매관서설치법 <1951-12-23>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19491220",
+      "effective_date": "1949-12-20",
+      "label": "검찰청법 <1949-12-20>",
+      "source": {
+        "cd": "19491220",
+        "nm": "검찰청법 <1949-12-20>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19491219",
+      "effective_date": "1949-12-19",
+      "label": "임시외자관리청설치법 <1949-12-19>",
+      "source": {
+        "cd": "19491219",
+        "nm": "임시외자관리청설치법 <1949-12-19>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19491210",
+      "effective_date": "1949-12-10",
+      "label": "외자구매처임시설치법 <1949-12-10>",
+      "source": {
+        "cd": "19491210",
+        "nm": "외자구매처임시설치법 <1949-12-10>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19490415",
+      "effective_date": "1949-04-15",
+      "label": "정부조직법 <1949-04-15>",
+      "source": {
+        "cd": "19490415",
+        "nm": "정부조직법 <1949-04-15>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19490117",
+      "effective_date": "1949-01-17",
+      "label": "임시외자총국직제 <1949-01-17>",
+      "source": {
+        "cd": "19490117",
+        "nm": "임시외자총국직제 <1949-01-17>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19481229",
+      "effective_date": "1948-12-29",
+      "label": "임시관재총국직제 <1948-12-29>",
+      "source": {
+        "cd": "19481229",
+        "nm": "임시관재총국직제 <1948-12-29>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19481204",
+      "effective_date": "1948-12-04",
+      "label": "심계원법 <1948-12-04>",
+      "source": {
+        "cd": "19481204",
+        "nm": "심계원법 <1948-12-04>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
+    {
+      "date_code": "19480717",
+      "effective_date": "1948-07-17",
+      "label": "정부조직법 <1948-07-17>",
+      "source": {
+        "cd": "19480717",
+        "nm": "정부조직법 <1948-07-17>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    }
+  ],
+  "fetched_snapshots": [
+    {
+      "effective_date": "1948-07-17",
+      "date_code": "19480717",
+      "label": "정부조직법 <1948-07-17>",
+      "path": "data/snapshots/1948-07-17/snapshot.json",
+      "node_count": 21
+    },
+    {
+      "effective_date": "1948-12-04",
+      "date_code": "19481204",
+      "label": "심계원법 <1948-12-04>",
+      "path": "data/snapshots/1948-12-04/snapshot.json",
+      "node_count": 22
+    },
+    {
+      "effective_date": "1948-12-29",
+      "date_code": "19481229",
+      "label": "임시관재총국직제 <1948-12-29>",
+      "path": "data/snapshots/1948-12-29/snapshot.json",
+      "node_count": 23
+    },
+    {
+      "effective_date": "1949-01-17",
+      "date_code": "19490117",
+      "label": "임시외자총국직제 <1949-01-17>",
+      "path": "data/snapshots/1949-01-17/snapshot.json",
+      "node_count": 24
+    },
+    {
+      "effective_date": "1949-04-15",
+      "date_code": "19490415",
+      "label": "정부조직법 <1949-04-15>",
+      "path": "data/snapshots/1949-04-15/snapshot.json",
+      "node_count": 25
+    },
+    {
+      "effective_date": "1949-12-10",
+      "date_code": "19491210",
+      "label": "외자구매처임시설치법 <1949-12-10>",
+      "path": "data/snapshots/1949-12-10/snapshot.json",
+      "node_count": 26
+    },
+    {
+      "effective_date": "1949-12-19",
+      "date_code": "19491219",
+      "label": "임시외자관리청설치법 <1949-12-19>",
+      "path": "data/snapshots/1949-12-19/snapshot.json",
+      "node_count": 26
+    },
+    {
+      "effective_date": "1949-12-20",
+      "date_code": "19491220",
+      "label": "검찰청법 <1949-12-20>",
+      "path": "data/snapshots/1949-12-20/snapshot.json",
+      "node_count": 27
+    },
+    {
+      "effective_date": "1951-12-23",
+      "date_code": "19511223",
+      "label": "전매청과지방전매관서설치법 <1951-12-23>",
+      "path": "data/snapshots/1951-12-23/snapshot.json",
+      "node_count": 28
+    },
+    {
+      "effective_date": "1954-09-23",
+      "date_code": "19540923",
+      "label": "구황실재산법 <1954-09-23>",
+      "path": "data/snapshots/1954-09-23/snapshot.json",
+      "node_count": 29
+    },
+    {
+      "effective_date": "1955-02-07",
+      "date_code": "19550207",
+      "label": "정부조직법 <1955-02-07>",
+      "path": "data/snapshots/1955-02-07/snapshot.json",
+      "node_count": 26
+    },
+    {
+      "effective_date": "1955-03-07",
+      "date_code": "19550307",
+      "label": "사정위원회규정 <1955-03-07>",
+      "path": "data/snapshots/1955-03-07/snapshot.json",
+      "node_count": 27
+    },
+    {
+      "effective_date": "1956-12-31",
+      "date_code": "19561231",
+      "label": "귀속재산처리법 <1956-12-31>",
+      "path": "data/snapshots/1956-12-31/snapshot.json",
+      "node_count": 26
+    },
+    {
+      "effective_date": "1957-02-12",
+      "date_code": "19570212",
+      "label": "농사교도법 <1957-02-12>",
+      "path": "data/snapshots/1957-02-12/snapshot.json",
+      "node_count": 27
+    },
+    {
+      "effective_date": "1958-03-11",
+      "date_code": "19580311",
+      "label": "원자력법 <1958-03-11>",
+      "path": "data/snapshots/1958-03-11/snapshot.json",
+      "node_count": 28
+    },
+    {
+      "effective_date": "1960-07-01",
+      "date_code": "19600701",
+      "label": "정부조직법 <1960-07-01>",
+      "path": "data/snapshots/1960-07-01/snapshot.json",
+      "node_count": 26
+    },
+    {
+      "effective_date": "1960-09-01",
+      "date_code": "19600901",
+      "label": "사정위원회규정 <1960-09-01>",
+      "path": "data/snapshots/1960-09-01/snapshot.json",
+      "node_count": 25
+    },
+    {
+      "effective_date": "1961-06-16",
+      "date_code": "19610616",
+      "label": "정부조직법 <1961-06-16>",
+      "path": "data/snapshots/1961-06-16/snapshot.json",
+      "node_count": 25
+    },
+    {
+      "effective_date": "1961-06-22",
+      "date_code": "19610622",
+      "label": "정부조직법 <1961-06-22>",
+      "path": "data/snapshots/1961-06-22/snapshot.json",
+      "node_count": 26
+    },
+    {
+      "effective_date": "1961-07-05",
+      "date_code": "19610705",
+      "label": "군사원호청설치법 <1961-07-05>",
+      "path": "data/snapshots/1961-07-05/snapshot.json",
+      "node_count": 27
+    },
+    {
+      "effective_date": "1961-07-22",
+      "date_code": "19610722",
+      "label": "정부조직법 <1961-07-22>",
+      "path": "data/snapshots/1961-07-22/snapshot.json",
+      "node_count": 28
+    },
+    {
+      "effective_date": "1961-08-22",
+      "date_code": "19610822",
+      "label": "정부조직법 <1961-08-22>",
+      "path": "data/snapshots/1961-08-22/snapshot.json",
+      "node_count": 27
+    },
+    {
+      "effective_date": "1961-08-25",
+      "date_code": "19610825",
+      "label": "정부조직법 <1961-08-25>",
+      "path": "data/snapshots/1961-08-25/snapshot.json",
+      "node_count": 28
+    },
+    {
+      "effective_date": "1961-09-09",
+      "date_code": "19610909",
+      "label": "심계원법 <1961-09-09>",
+      "path": "data/snapshots/1961-09-09/snapshot.json",
+      "node_count": 27
+    },
+    {
+      "effective_date": "1961-10-02",
+      "date_code": "19611002",
+      "label": "정부조직법 <1961-10-02>",
+      "path": "data/snapshots/1961-10-02/snapshot.json",
+      "node_count": 27
+    },
+    {
+      "effective_date": "1961-12-30",
+      "date_code": "19611230",
+      "label": "특허국설치법 <1961-12-30>",
+      "path": "data/snapshots/1961-12-30/snapshot.json",
+      "node_count": 28
+    },
+    {
+      "effective_date": "1962-04-01",
+      "date_code": "19620401",
+      "label": "정부조직법 <1962-04-01>",
+      "path": "data/snapshots/1962-04-01/snapshot.json",
+      "node_count": 28
+    },
+    {
+      "effective_date": "1962-04-16",
+      "date_code": "19620416",
+      "label": "원호처설치법 <1962-04-16>",
+      "path": "data/snapshots/1962-04-16/snapshot.json",
+      "node_count": 28
+    },
+    {
+      "effective_date": "1962-06-18",
+      "date_code": "19620618",
+      "label": "정부조직법 <1962-06-18>",
+      "path": "data/snapshots/1962-06-18/snapshot.json",
+      "node_count": 28
+    },
+    {
+      "effective_date": "1963-09-01",
+      "date_code": "19630901",
+      "label": "정부조직법 <1963-09-01>",
+      "path": "data/snapshots/1963-09-01/snapshot.json",
+      "node_count": 31
+    },
+    {
+      "effective_date": "1963-12-17",
+      "date_code": "19631217",
+      "label": "정부조직법 <1963-12-17>",
+      "path": "data/snapshots/1963-12-17/snapshot.json",
+      "node_count": 43
+    },
+    {
+      "effective_date": "1964-08-14",
+      "date_code": "19640814",
+      "label": "정부조직법 <1964-08-14>",
+      "path": "data/snapshots/1964-08-14/snapshot.json",
+      "node_count": 42
+    },
+    {
+      "effective_date": "1966-02-28",
+      "date_code": "19660228",
+      "label": "정부조직법 <1966-02-28>",
+      "path": "data/snapshots/1966-02-28/snapshot.json",
+      "node_count": 44
+    },
+    {
+      "effective_date": "1967-01-01",
+      "date_code": "19670101",
+      "label": "정부조직법 <1967-01-01>",
+      "path": "data/snapshots/1967-01-01/snapshot.json",
+      "node_count": 45
+    },
+    {
+      "effective_date": "1967-03-30",
+      "date_code": "19670330",
+      "label": "정부조직법 <1967-03-30>",
+      "path": "data/snapshots/1967-03-30/snapshot.json",
+      "node_count": 48
+    },
+    {
+      "effective_date": "1968-07-24",
+      "date_code": "19680724",
+      "label": "정부조직법 <1968-07-24>",
+      "path": "data/snapshots/1968-07-24/snapshot.json",
+      "node_count": 49
+    },
+    {
+      "effective_date": "1970-08-03",
+      "date_code": "19700803",
+      "label": "정부조직법 <1970-08-03>",
+      "path": "data/snapshots/1970-08-03/snapshot.json",
+      "node_count": 53
+    },
+    {
+      "effective_date": "1973-01-15",
+      "date_code": "19730115",
+      "label": "정부조직법 <1973-01-15>",
+      "path": "data/snapshots/1973-01-15/snapshot.json",
+      "node_count": 53
+    },
+    {
+      "effective_date": "1973-03-03",
+      "date_code": "19730303",
+      "label": "정부조직법 <1973-03-03>",
+      "path": "data/snapshots/1973-03-03/snapshot.json",
+      "node_count": 53
+    },
+    {
+      "effective_date": "1973-05-14",
+      "date_code": "19730514",
+      "label": "중화학공업추진위원회설치령 <1973-05-14>",
+      "path": "data/snapshots/1973-05-14/snapshot.json",
+      "node_count": 54
+    },
+    {
+      "effective_date": "1974-11-14",
+      "date_code": "19741114",
+      "label": "대통령경호실법시행령 <1974-11-14>",
+      "path": "data/snapshots/1974-11-14/snapshot.json",
+      "node_count": 54
+    },
+    {
+      "effective_date": "1975-09-08",
+      "date_code": "19750908",
+      "label": "무임소장관실직제 <1975-09-08>",
+      "path": "data/snapshots/1975-09-08/snapshot.json",
+      "node_count": 54
+    },
+    {
+      "effective_date": "1976-01-31",
+      "date_code": "19760131",
+      "label": "정부조직법 <1976-01-31>",
+      "path": "data/snapshots/1976-01-31/snapshot.json",
+      "node_count": 55
+    },
+    {
+      "effective_date": "1976-12-31",
+      "date_code": "19761231",
+      "label": "정부조직법 <1976-12-31>",
+      "path": "data/snapshots/1976-12-31/snapshot.json",
+      "node_count": 54
+    },
+    {
+      "effective_date": "1977-11-15",
+      "date_code": "19771115",
+      "label": "전자통신개발추진위원회설치령 <1977-11-15>",
+      "path": "data/snapshots/1977-11-15/snapshot.json",
+      "node_count": 55
+    },
+    {
+      "effective_date": "1977-12-16",
+      "date_code": "19771216",
+      "label": "정부조직법 <1977-12-16>",
+      "path": "data/snapshots/1977-12-16/snapshot.json",
+      "node_count": 56
+    },
+    {
+      "effective_date": "1979-01-01",
+      "date_code": "19790101",
+      "label": "특정지역종합개발추진위원회설치령 <1979-01-01>",
+      "path": "data/snapshots/1979-01-01/snapshot.json",
+      "node_count": 57
+    },
+    {
+      "effective_date": "1979-12-27",
+      "date_code": "19791227",
+      "label": "대통령경호실법시행령 <1979-12-27>",
+      "path": "data/snapshots/1979-12-27/snapshot.json",
+      "node_count": 57
+    },
+    {
+      "effective_date": "1980-01-01",
+      "date_code": "19800101",
+      "label": "정부조직법 <1980-01-01>",
+      "path": "data/snapshots/1980-01-01/snapshot.json",
+      "node_count": 58
+    },
+    {
+      "effective_date": "1980-09-18",
+      "date_code": "19800918",
+      "label": "중화학공업추진위원회설치령 <1980-09-18>",
+      "path": "data/snapshots/1980-09-18/snapshot.json",
+      "node_count": 57
+    },
+    {
+      "effective_date": "1980-10-28",
+      "date_code": "19801028",
+      "label": "사회정화위원회설치령 <1980-10-28>",
+      "path": "data/snapshots/1980-10-28/snapshot.json",
+      "node_count": 58
+    },
+    {
+      "effective_date": "1980-12-18",
+      "date_code": "19801218",
+      "label": "국정자문회의법 <1980-12-18>",
+      "path": "data/snapshots/1980-12-18/snapshot.json",
+      "node_count": 59
+    },
+    {
+      "effective_date": "1981-03-14",
+      "date_code": "19810314",
+      "label": "평화통일정책자문회의법 <1981-03-14>",
+      "path": "data/snapshots/1981-03-14/snapshot.json",
+      "node_count": 60
+    },
+    {
+      "effective_date": "1981-04-08",
+      "date_code": "19810408",
+      "label": "정부조직법 <1981-04-08>",
+      "path": "data/snapshots/1981-04-08/snapshot.json",
+      "node_count": 61
+    },
+    {
+      "effective_date": "1981-09-18",
+      "date_code": "19810918",
+      "label": "특정지역종합개발추진위원회설치령 <1981-09-18>",
+      "path": "data/snapshots/1981-09-18/snapshot.json",
+      "node_count": 60
+    },
+    {
+      "effective_date": "1981-12-31",
+      "date_code": "19811231",
+      "label": "정부조직법 <1981-12-31>",
+      "path": "data/snapshots/1981-12-31/snapshot.json",
+      "node_count": 56
+    },
+    {
+      "effective_date": "1982-03-20",
+      "date_code": "19820320",
+      "label": "정부조직법 <1982-03-20>",
+      "path": "data/snapshots/1982-03-20/snapshot.json",
+      "node_count": 56
+    },
+    {
+      "effective_date": "1983-01-27",
+      "date_code": "19830127",
+      "label": "해외협력위원회설치령 <1983-01-27>",
+      "path": "data/snapshots/1983-01-27/snapshot.json",
+      "node_count": 57
+    },
+    {
+      "effective_date": "1984-04-21",
+      "date_code": "19840421",
+      "label": "해외협력위원회설치령 <1984-04-21>",
+      "path": "data/snapshots/1984-04-21/snapshot.json",
+      "node_count": 57
+    },
+    {
+      "effective_date": "1984-11-05",
+      "date_code": "19841105",
+      "label": "비상대비자원관리법 <1984-11-05>",
+      "path": "data/snapshots/1984-11-05/snapshot.json",
+      "node_count": 58
+    },
+    {
+      "effective_date": "1985-01-01",
+      "date_code": "19850101",
+      "label": "정부조직법 <1985-01-01>",
+      "path": "data/snapshots/1985-01-01/snapshot.json",
+      "node_count": 58
+    },
+    {
+      "effective_date": "1986-03-08",
+      "date_code": "19860308",
+      "label": "해외협력위원회설치령 <1986-03-08>",
+      "path": "data/snapshots/1986-03-08/snapshot.json",
+      "node_count": 57
+    },
+    {
+      "effective_date": "1987-01-01",
+      "date_code": "19870101",
+      "label": "정부조직법 <1987-01-01>",
+      "path": "data/snapshots/1987-01-01/snapshot.json",
+      "node_count": 57
+    },
+    {
+      "effective_date": "1987-04-01",
+      "date_code": "19870401",
+      "label": "한국전매공사법 <1987-04-01>",
+      "path": "data/snapshots/1987-04-01/snapshot.json",
+      "node_count": 56
+    },
+    {
+      "effective_date": "1988-02-25",
+      "date_code": "19880225",
+      "label": "대한민국헌법 <1988-02-25>",
+      "path": "data/snapshots/1988-02-25/snapshot.json",
+      "node_count": 56
+    },
+    {
+      "effective_date": "1989-01-01",
+      "date_code": "19890101",
+      "label": "전자통신개발추진위원회설치령 <1989-01-01>",
+      "path": "data/snapshots/1989-01-01/snapshot.json",
+      "node_count": 55
+    },
+    {
+      "effective_date": "1989-02-28",
+      "date_code": "19890228",
+      "label": "사회정화위원회설치령 <1989-02-28>",
+      "path": "data/snapshots/1989-02-28/snapshot.json",
+      "node_count": 54
+    },
+    {
+      "effective_date": "1989-04-29",
+      "date_code": "19890429",
+      "label": "국가원로자문회의법 <1989-04-29>",
+      "path": "data/snapshots/1989-04-29/snapshot.json",
+      "node_count": 53
+    },
+    {
+      "effective_date": "1989-12-30",
+      "date_code": "19891230",
+      "label": "정부조직법 <1989-12-30>",
+      "path": "data/snapshots/1989-12-30/snapshot.json",
+      "node_count": 54
+    },
+    {
+      "effective_date": "1990-12-27",
+      "date_code": "19901227",
+      "label": "정부조직법 <1990-12-27>",
+      "path": "data/snapshots/1990-12-27/snapshot.json",
+      "node_count": 55
+    },
+    {
+      "effective_date": "1991-03-08",
+      "date_code": "19910308",
+      "label": "국가과학기술자문회의법 <1991-03-08>",
+      "path": "data/snapshots/1991-03-08/snapshot.json",
+      "node_count": 56
+    },
+    {
+      "effective_date": "1993-03-06",
+      "date_code": "19930306",
+      "label": "정부조직법 <1993-03-06>",
+      "path": "data/snapshots/1993-03-06/snapshot.json",
+      "node_count": 54
+    },
+    {
+      "effective_date": "1994-12-23",
+      "date_code": "19941223",
+      "label": "정부조직법 <1994-12-23>",
+      "path": "data/snapshots/1994-12-23/snapshot.json",
+      "node_count": 53
+    },
+    {
+      "effective_date": "1996-02-09",
+      "date_code": "19960209",
+      "label": "정부조직법 <1996-02-09>",
+      "path": "data/snapshots/1996-02-09/snapshot.json",
+      "node_count": 53
+    },
+    {
+      "effective_date": "1996-08-08",
+      "date_code": "19960808",
+      "label": "정부조직법 <1996-08-08>",
+      "path": "data/snapshots/1996-08-08/snapshot.json",
+      "node_count": 52
+    },
+    {
+      "effective_date": "1998-02-28",
+      "date_code": "19980228",
+      "label": "정부조직법 <1998-02-28>",
+      "path": "data/snapshots/1998-02-28/snapshot.json",
+      "node_count": 54
+    },
+    {
+      "effective_date": "1998-04-01",
+      "date_code": "19980401",
+      "label": "금융감독기구의설치등에관한법률 <1998-04-01>",
+      "path": "data/snapshots/1998-04-01/snapshot.json",
+      "node_count": 55
+    },
+    {
+      "effective_date": "1998-05-25",
+      "date_code": "19980525",
+      "label": "비상대비자원관리법 <1998-05-25>",
+      "path": "data/snapshots/1998-05-25/snapshot.json",
+      "node_count": 55
+    },
+    {
+      "effective_date": "1999-01-21",
+      "date_code": "19990121",
+      "label": "정부조직법 <1999-01-21>",
+      "path": "data/snapshots/1999-01-21/snapshot.json",
+      "node_count": 55
+    },
+    {
+      "effective_date": "1999-05-24",
+      "date_code": "19990524",
+      "label": "정부조직법 <1999-05-24>",
+      "path": "data/snapshots/1999-05-24/snapshot.json",
+      "node_count": 55
+    },
+    {
+      "effective_date": "1999-08-31",
+      "date_code": "19990831",
+      "label": "국민경제자문회의법 <1999-08-31>",
+      "path": "data/snapshots/1999-08-31/snapshot.json",
+      "node_count": 56
+    },
+    {
+      "effective_date": "2001-01-29",
+      "date_code": "20010129",
+      "label": "정부조직법 <2001-01-29>",
+      "path": "data/snapshots/2001-01-29/snapshot.json",
+      "node_count": 56
+    },
+    {
+      "effective_date": "2001-11-25",
+      "date_code": "20011125",
+      "label": "국가인권위원회법 <2001-11-25>",
+      "path": "data/snapshots/2001-11-25/snapshot.json",
+      "node_count": 57
+    },
+    {
+      "effective_date": "2002-01-25",
+      "date_code": "20020125",
+      "label": "부패방지법 <2002-01-25>",
+      "path": "data/snapshots/2002-01-25/snapshot.json",
+      "node_count": 58
+    },
+    {
+      "effective_date": "2004-03-11",
+      "date_code": "20040311",
+      "label": "정부조직법 <2004-03-11>",
+      "path": "data/snapshots/2004-03-11/snapshot.json",
+      "node_count": 59
+    },
+    {
+      "effective_date": "2004-09-23",
+      "date_code": "20040923",
+      "label": "정부조직법 <2004-09-23>",
+      "path": "data/snapshots/2004-09-23/snapshot.json",
+      "node_count": 59
+    },
+    {
+      "effective_date": "2005-01-01",
+      "date_code": "20050101",
+      "label": "정부조직법 <2005-01-01>",
+      "path": "data/snapshots/2005-01-01/snapshot.json",
+      "node_count": 58
+    },
+    {
+      "effective_date": "2005-03-24",
+      "date_code": "20050324",
+      "label": "정부조직법 <2005-03-24>",
+      "path": "data/snapshots/2005-03-24/snapshot.json",
+      "node_count": 58
+    },
+    {
+      "effective_date": "2005-04-27",
+      "date_code": "20050427",
+      "label": "청소년기본법 <2005-04-27>",
+      "path": "data/snapshots/2005-04-27/snapshot.json",
+      "node_count": 59
+    },
+    {
+      "effective_date": "2005-07-21",
+      "date_code": "20050721",
+      "label": "부패방지법 <2005-07-21>",
+      "path": "data/snapshots/2005-07-21/snapshot.json",
+      "node_count": 59
+    },
+    {
+      "effective_date": "2005-07-22",
+      "date_code": "20050722",
+      "label": "정부조직법 <2005-07-22>",
+      "path": "data/snapshots/2005-07-22/snapshot.json",
+      "node_count": 59
+    },
+    {
+      "effective_date": "2005-10-30",
+      "date_code": "20051030",
+      "label": "국민고충처리위원회의 설치 및 운영에 관한 법률 <2005-10-30>",
+      "path": "data/snapshots/2005-10-30/snapshot.json",
+      "node_count": 60
+    },
+    {
+      "effective_date": "2006-01-01",
+      "date_code": "20060101",
+      "label": "정부조직법 <2006-01-01>",
+      "path": "data/snapshots/2006-01-01/snapshot.json",
+      "node_count": 62
+    },
+    {
+      "effective_date": "2006-03-30",
+      "date_code": "20060330",
+      "label": "청소년기본법 <2006-03-30>",
+      "path": "data/snapshots/2006-03-30/snapshot.json",
+      "node_count": 62
+    },
+    {
+      "effective_date": "2007-07-28",
+      "date_code": "20070728",
+      "label": "비상대비자원 관리법 <2007-07-28>",
+      "path": "data/snapshots/2007-07-28/snapshot.json",
+      "node_count": 62
+    },
+    {
+      "effective_date": "2008-02-29",
+      "date_code": "20080229",
+      "label": "정부조직법 <2008-02-29>",
+      "path": "data/snapshots/2008-02-29/snapshot.json",
+      "node_count": 52
+    },
+    {
+      "effective_date": "2008-09-06",
+      "date_code": "20080906",
+      "label": "국가교육과학기술자문회의법 <2008-09-06>",
+      "path": "data/snapshots/2008-09-06/snapshot.json",
+      "node_count": 52
+    },
+    {
+      "effective_date": "2010-03-19",
+      "date_code": "20100319",
+      "label": "정부조직법 <2010-03-19>",
+      "path": "data/snapshots/2010-03-19/snapshot.json",
+      "node_count": 52
+    },
+    {
+      "effective_date": "2010-07-05",
+      "date_code": "20100705",
+      "label": "정부조직법 <2010-07-05>",
+      "path": "data/snapshots/2010-07-05/snapshot.json",
+      "node_count": 52
+    },
+    {
+      "effective_date": "2011-03-28",
+      "date_code": "20110328",
+      "label": "과학기술기본법 <2011-03-28>",
+      "path": "data/snapshots/2011-03-28/snapshot.json",
+      "node_count": 53
+    },
+    {
+      "effective_date": "2011-10-26",
+      "date_code": "20111026",
+      "label": "원자력안전위원회의 설치 및 운영에 관한 법률 <2011-10-26>",
+      "path": "data/snapshots/2011-10-26/snapshot.json",
+      "node_count": 54
+    },
+    {
+      "effective_date": "2013-03-23",
+      "date_code": "20130323",
+      "label": "정부조직법 <2013-03-23>",
+      "path": "data/snapshots/2013-03-23/snapshot.json",
+      "node_count": 57
+    },
+    {
+      "effective_date": "2013-09-12",
+      "date_code": "20130912",
+      "label": "새만금사업촉진을위한특별법 <2013-09-12>",
+      "path": "data/snapshots/2013-09-12/snapshot.json",
+      "node_count": 58
+    },
+    {
+      "effective_date": "2014-06-19",
+      "date_code": "20140619",
+      "label": "특별감찰관법 <2014-06-19>",
+      "path": "data/snapshots/2014-06-19/snapshot.json",
+      "node_count": 59
+    },
+    {
+      "effective_date": "2014-11-19",
+      "date_code": "20141119",
+      "label": "정부조직법 <2014-11-19>",
+      "path": "data/snapshots/2014-11-19/snapshot.json",
+      "node_count": 59
+    },
+    {
+      "effective_date": "2017-07-26",
+      "date_code": "20170726",
+      "label": "정부조직법 <2017-07-26>",
+      "path": "data/snapshots/2017-07-26/snapshot.json",
+      "node_count": 60
+    },
+    {
+      "effective_date": "2020-07-15",
+      "date_code": "20200715",
+      "label": "고위공직자범죄수사처 설치 및 운영에 관한 법률 <2020-07-15>",
+      "path": "data/snapshots/2020-07-15/snapshot.json",
+      "node_count": 61
+    },
+    {
+      "effective_date": "2020-08-05",
+      "date_code": "20200805",
+      "label": "개인정보 보호법 <2020-08-05>",
+      "path": "data/snapshots/2020-08-05/snapshot.json",
+      "node_count": 62
+    },
+    {
+      "effective_date": "2020-09-12",
+      "date_code": "20200912",
+      "label": "정부조직법 <2020-09-12>",
+      "path": "data/snapshots/2020-09-12/snapshot.json",
+      "node_count": 63
+    },
+    {
+      "effective_date": "2022-07-21",
+      "date_code": "20220721",
+      "label": "국가교육위원회 설치 및 운영에 관한 법률 <2022-07-21>",
+      "path": "data/snapshots/2022-07-21/snapshot.json",
+      "node_count": 64
+    },
+    {
+      "effective_date": "2023-06-05",
+      "date_code": "20230605",
+      "label": "정부조직법 <2023-06-05>",
+      "path": "data/snapshots/2023-06-05/snapshot.json",
+      "node_count": 65
+    },
+    {
+      "effective_date": "2024-05-17",
+      "date_code": "20240517",
+      "label": "정부조직법 <2024-05-17>",
+      "path": "data/snapshots/2024-05-17/snapshot.json",
+      "node_count": 65
+    },
+    {
+      "effective_date": "2024-05-27",
+      "date_code": "20240527",
+      "label": "우주항공청의 설치 및 운영에 관한 특별법 <2024-05-27>",
+      "path": "data/snapshots/2024-05-27/snapshot.json",
+      "node_count": 66
+    },
+    {
+      "effective_date": "2025-10-01",
+      "date_code": "20251001",
+      "label": "정부조직법 <2025-10-01>",
+      "path": "data/snapshots/2025-10-01/snapshot.json",
+      "node_count": 66
+    },
+    {
+      "effective_date": "2026-01-02",
+      "date_code": "20260102",
+      "label": "정부조직법 <2026-01-02>",
+      "path": "data/snapshots/2026-01-02/snapshot.json",
+      "node_count": 67
+    }
+  ]
+}

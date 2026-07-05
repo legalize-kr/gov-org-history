@@ -1,0 +1,793 @@
+
+
+
+
+
+
+
+
+
+
+
+   
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+    <title>기관별기구도</title>
+
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="viewport-fit=cover, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+<link rel="stylesheet" href="/css/fonts.css" />
+<link rel="stylesheet" href="/css/line-awesome.css" />
+<link rel="stylesheet" href="/css/reset.css" />
+<link rel="stylesheet" href="/css/layout.css" />
+<link rel="stylesheet" href="/css/template.css" />
+<link rel="stylesheet" href="/css/mobile.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/common.js"></script>
+    
+    <script type="text/javascript">
+    function openDetailDual(){
+        
+        var url =  "/cop/bbs/getInstiChartDetailDiff.do";
+        
+        window.open(url,'open1','');
+        
+    }
+
+    function openDetailDual2(){
+        var chk_arr = [];
+        $("input[name=openChkbx]:checked").each(function(){
+            var chk = $(this).val();
+            chk_arr.push(chk);
+        })
+        
+        var arr1 = chk_arr[0].split(",");
+        var arr2 = chk_arr[1].split(",");
+        
+        var url1 =  "/cop/bbs/getInstiChartDetail.do?codeNum="+arr1[0]+"&orgCode="+arr1[1]+"&chartId="+arr1[2]+"";
+        var url2 =  "/cop/bbs/getInstiChartDetail.do?codeNum="+arr2[0]+"&orgCode="+arr2[1]+"&chartId="+arr2[2]+"";
+        
+        //var openUrl1 = window.open(url1,'open1','width=500, height=800, left=10, top=10');
+        //openUrl1.focus();
+        //var openUrl2 = window.open(url2,'open2','width=500, height=800, left=600, top=10');
+        //openUrl2.focus();
+        
+        window.open(url1,'open1','width=500, height=800, left=10, top=10');
+        window.open(url2,'open2','width=500, height=800, left=600, top=10');
+    }
+
+    function movePageGigudoGov() {
+        var openWindowGigudoGov = window.open('https://org.go.kr/oam/gvrnOrgChartView.ifrm?flag=gov','_blank','');
+        openWindowGigudoGov.focus();
+    }
+    </script>
+</head>
+
+<body>
+    <!--
+    header wrap area
+    -->
+    
+
+
+<style>
+	#gov_top { background: #ECF0F4; height: 25px; width: 100%; position: absolute; }
+	#gov_top_inner { position: absolute; left: 5%;}
+	#gov_top_inner img, span { position: relative; }
+</style>
+
+<a class="directBtn" style="top:-100px;" href="#sub">본문바로가기</a>
+
+<div class="header">
+
+	<div id="gov_top"> 
+      <div id="gov_top_inner"> 
+       <img src="/images/ico_kor.png" alt="태극기"> 
+       <span style="color:#444;">이 누리집은 대한민국 공식 전자정부 누리집입니다.</span> 
+      </div> 
+    </div>   
+	<div></div>
+	<div></div>
+	<div></div>
+	
+    <div class="header-inner" style="margin-top:10px;">
+        <div class="headLogo">
+            <a href="https://org.go.kr"><img src="/images/mainLogo-02.svg" alt="정부조직관리정보시스템"></a>
+        </div>
+        <ul class="mainMenu">
+            <li class="level1">
+                <a href="javascript:;">조직&nbsp;&middot;&nbsp;제도소개</a>
+                <div class="subMenu">
+                    <div class="subName">조직&nbsp;&middot;&nbsp;제도소개</div>
+                    <ul class="sub-inner">
+                        <li class="level2"><a href="/intrcn/orgnzt/viewDc.do">정부조직이란</a></li>
+                        <li class="level2"><a href="/intrcn/system/viewLbcst.do">제도소개</a>
+                            <ul>
+                                <li class="level3"><a href="/intrcn/system/viewLbcst.do">총액인건비</a></li>
+                                <li class="level3"><a href="/intrcn/system/viewExecutive.do">책임운영기관</a></li>
+                                <li class="level3"><a href="/intrcn/system/viewCmit.do">행정기관위원회</a></li>
+                                <li class="level3"><a href="/intrcn/system/viewNewOrgHnfEvl.do">신설기구&nbsp;&middot;&nbsp;인력 평가</a></li>
+                                <li class="level3"><a href="/intrcn/system/viewDgnss.do">조직진단</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="level1">
+                <a href="javascript:;">정부기구도</a>
+                <div class="subMenu">
+                    <div class="subName">정부기구도</div>
+                    <ul class="sub-inner">
+                        <li class="level2"><a href="javascript:movePageGigudo();" title="새 창 열기">정부기구도<i class="las la-external-link-alt marginL8"></i></a></li>
+                        <li class="level2"><a href="/cop/bbs/getInstiChartList.do">기관별기구도</a></li>
+                        <li class="level2"><a href="/orgnzt/chart/viewEng.do">정부기구도(영문)</a></li>
+                        <li class="level2"><a href="javascript:movePageGigudoGov();" title="새 창 열기">역대정부기구도<i class="las la-external-link-alt marginL8"></i></a></li>
+                        <!--<li class="level2"><a href="/orgnzt/chnge/viewAdmnstMach.do">행정기관별 조직변천</a></li>-->
+                    </ul>
+                </div>
+            </li>
+            <li class="level1"><a href="/cop/bbs/selectArticleList.do?bbsId=BBSMSTR_400000010000">자료실</a></li>
+            <li class="level1">
+                <a href="javascript:;">통계자료</a>
+                <div class="subMenu">
+                    <div class="subName">통계자료</div>
+                    <ul class="sub-inner">
+                        <li class="level2"><a href="/psncpa/pbsvnt/analysisPage.do">공무원정원</a>
+                            <ul>
+                                <li class="level3"><a href="/psncpa/pbsvnt/analysisPage.do">공무원정원분석표</a></li>
+                                <li class="level3"><a href="/psncpa/pbsvnt/selectAll.do">공무원정원</a></li>
+                                <li class="level3"><a href="/psncpa/pbsvnt/selectIrds.do">공무원역대정부증감현황</a></li>
+                            </ul>
+                        </li>
+                        <li class="level2"><a href="/cop/bbs/getOrgMembStatsList.do?bbsId=BBSMSTR_000000010050">기구정원통계</a></li>
+                        <li class="level2"><a href="/orgnzt/cmitSttus/viewGnrl.do">행정기관위원회</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="level1">
+                <a href="javascript:movePageEpeople();" title="새 창 열기">국민생각함<i class="las la-external-link-alt marginL8"></i></a>
+            </li>
+        </ul>
+        <div class="allMenu"><a href="javascript:;" title="전체메뉴 펼침"><span>전체메뉴</span> <i class="las la-bars"></i></a></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function movePageGigudo(){
+        var openWindowGigudo = window.open('https://org.go.kr/oam/gvrnOrgChartView.ifrm','_blank','');
+        openWindowGigudo.focus();
+    }
+    
+    function movePageGigudoGov() {
+		var openWindowGigudoGov = window.open('https://org.go.kr/oam/gvrnOrgChartView.ifrm?flag=gov','_blank','');
+		openWindowGigudoGov.focus();
+	}
+    
+    function movePageEpeople(){
+        var openWindowEpeople = window.open('https://epeople.go.kr/idea/index.npaid','_blank','');
+        openWindowEpeople.focus();
+    }    
+    
+    //본문 바로가기 버튼 2022.08.25
+    jQuery(".directBtn").focusin(function(){
+        jQuery(this).css("top", "0");
+    }).focusout(function(){
+        jQuery(this).css("top", "-100px");
+    })
+</script>
+
+    <!--
+        allgnb
+    -->
+    
+<div class="allgnb">
+    <div class="allgnb_inner">
+        <div class="logo"><img src="/images/mainLogo-02.svg" alt="로고"></div>
+        <ul class="allmn">
+            <li class="level1">
+                <a href="javascript:void(0);">제도&nbsp;&middot;&nbsp;조직소개</a>
+                <ul>
+                    <li class="level2"><a href="/intrcn/orgnzt/viewDc.do">정부조직이란</a></li>
+                    <li class="level2">
+                        <a href="/intrcn/system/viewLbcst.do">제도소개</a>
+                        <ul>
+                            <li class="level3"><a href="/intrcn/system/viewLbcst.do">총액인건비</a></li>
+                            <li class="level3"><a href="/intrcn/system/viewExecutive.do">책임운영기관</a></li>
+                            <li class="level3"><a href="/intrcn/system/viewCmit.do">행정기관위원회</a></li>
+                            <li class="level3"><a href="/intrcn/system/viewNewOrgHnfEvl.do">신설기구&nbsp;&middot;&nbsp;인력 평가</a></li>
+                            <li class="level3"><a href="/intrcn/system/viewDgnss.do">조직진단</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:void(0);">정부기구도</a>
+                <ul>
+                    <li class="level2"><a href="javascript:movePageGigudo();" title="새 창 열기">정부기구도<i class="las la-external-link-alt marginL8"></i></a></li>
+                    <li class="level2"><a href="/cop/bbs/getInstiChartList.do">기관별기구도</a></li>
+                    <li class="level2"><a href="/orgnzt/chart/viewEng.do">정부기구도(영문)</a></li>
+                    <li class="level2"><a href="javascript:movePageGigudoGov();" title="새 창 열기">역대정부기구도<i class="las la-external-link-alt marginL8"></i></a></li>
+                    <!--<li class="level2"><a href="/orgnzt/chnge/viewAdmnstMach.do">행정별 조직변천</a></li>-->
+                </ul>
+            </li>
+            <li class="level1"><a href="javascript:void(0);">자료실</a>
+                <ul>
+                    <li class="level2"><a href="/cop/bbs/selectArticleList.do?bbsId=BBSMSTR_400000010000">자료실</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:void(0);">통계자료</a>
+                <ul>
+                    <li class="level2">
+                        <a href="/psncpa/pbsvnt/analysisPage.do">공무원정원</a>
+                        <ul>
+                            <li class="level3"><a href="/psncpa/pbsvnt/analysisPage.do">공무원정원분석표</a></li>
+                            <li class="level3"><a href="/psncpa/pbsvnt/selectAll.do">공무원정원</a></li>
+                            <li class="level3"><a href="/psncpa/pbsvnt/selectIrds.do">공무원역대정부증감현황</a></li>
+                        </ul>
+                    </li>
+                    <li class="level2"><a href="/cop/bbs/getOrgMembStatsList.do?bbsId=BBSMSTR_000000010050">기구정원통계</a></li>
+                    <li class="level2"><a href="/orgnzt/cmitSttus/viewGnrl.do">행정기관위원회</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:movePageEpeople();" title="새 창 열기">국민생각함<i class="las la-external-link-alt marginL8"></i></a>
+            </li>
+        </ul>
+        <div class="allcls"><a href="javascript:;"><span>메뉴닫기</span><i class="las la-times"></i></a></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function movePageGigudo(){
+        var openWindowGigudo = window.open('https://org.go.kr/oam/gvrnOrgChartView.ifrm','_blank','');
+        openWindowGigudo.focus();
+    }
+    
+    function movePageGigudoGov() {
+		var openWindowGigudoGov = window.open('https://org.go.kr/oam/gvrnOrgChartView.ifrm?flag=gov','_blank','');
+		openWindowGigudoGov.focus();
+	}
+    
+    function movePageEpeople(){
+        var openWindowEpeople = window.open('https://epeople.go.kr/idea/index.npaid','_blank','');
+        openWindowEpeople.focus();
+    }
+</script>
+
+    
+    <!-- breadcrumbs -->
+    <div class="nav-wrap">
+        <div class="nav">
+            <p class="home"><a href=""><i class="las la-home"></i></a></p>
+            <div class="location depth1">
+                <a href="javascript:;">정부기구도<i class="las la-angle-down"></i></a>
+                <ul class="location-list">
+                    <li class="depth-2"><a href="/intrcn/orgnzt/viewDc.do">조직&middot;제도소개</a></li>
+                    <li class="depth-2"><a href="/orgnzt/chart/viewEng.do">정부기구도</a></li>
+                    <li class="depth-2"><a href="/cop/bbs/selectArticleList.do?bbsId=BBSMSTR_400000010000">자료실</a></li>
+                    <li class="depth-2"><a href="/psncpa/pbsvnt/analysisPage.do">통계자료</a></li>
+                    <li class="depth-2"><a href="https://org.go.kr/sinmungo/sbmnu/viewIntrcn.do">국민생각함</a></li>
+                </ul>
+            </div>
+            <div class="location depth1">
+                <a href="javascript:;">기관별기구도<i class="las la-angle-down"></i></a>
+                <ul class="location-list">
+                    <li class="depth-2"><a href="javascript:movePageGigudo();">정부기구도<i class="las la-external-link-alt marginL8"></i></a></li>
+                    <li class="depth-2"><a href="/orgnzt/chart/viewEng.do">정부기구도(영문)</a></li>
+                    <!--<li class="depth-2"><a href="/orgnzt/chnge/viewAdmnstMach.do">행정기관별 조직변천</a></li>-->
+                    <li class="depth-2"><a href="/cop/bbs/getInstiChartList.do">기관별기구도</a></li>
+                    <li class="level2"><a href="javascript:movePageGigudoGov();">역대정부기구도<i class="las la-external-link-alt marginL8"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+    <!-- content container -->
+    <div class="container-wrap" id="sub" tabindex="-1">
+        <form name="articleForm" id="articleForm" action="/cop/bbs/getInstiChartList.do" method="post">
+        <h1>기관별기구도</h1>
+        <!-- del <div class="guide"><i class="las la-list-alt"></i>비교할 기관을 선택 후 비교버튼을 클릭하세요</div> -->
+        <div class="compare-button">
+            <!-- <a href="javascript:openDetailDual();"><i class="las la-sitemap"></i><br/>기구도 <br/>비교하기</a> -->
+        </div>
+        <br/>
+        <div>
+            <div>
+                <div class="boardHead">
+                    <div class="search">
+                        <label for="searchCnd">검색</label>
+                        <select class="selectBox" id="searchCnd" name="searchCnd" onchange="clearSearchWrd();">
+                            <option value="">선택</option>
+                            <option value="group" >분류</option>
+                            <option value="dept" >기관명</option>
+                        </select>
+                        <input type="text" id="searchWrd" name="searchWrd" title="검색어" placeholder="검색어를 입력하세요" value="">
+                        <button class="btn_srch" type="button" onclick="javascript:fn_egov_search_article();return false;">검색</button>
+                    </div>
+                    <div>
+                        <div class="total">총 <span>63</span> 건</div>
+                    </div>
+                </div>
+                <ul class="boardList">
+                    
+                    <li>
+                        <div>
+                            <!-- <input type="checkbox" id="openChkbx0" name="openChkbx" value="중앙행정기관,1371000,53" />&nbsp;&nbsp; -->
+                            <span>11</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="category" style="width:400px;">중앙행정기관</span>
+                            
+							
+								<a href="javascript:openDetail('중앙행정기관','1371000','53')" title="문화체육관광부 상세페이지 이동" class="subject">문화체육관광부</a>
+							
+							
+						    
+                        </div>
+                        <div>
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/정부조직법/제29조');">설치근거</a>
+                            
+                            
+                            
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('http://www.law.go.kr/법령/문화체육관광부와그소속기관직제시행규칙');">관련법령</a>
+                            
+                            
+                            
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div>
+                            <!-- <input type="checkbox" id="openChkbx1" name="openChkbx" value="중앙행정기관,1543000,52" />&nbsp;&nbsp; -->
+                            <span>12</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="category" style="width:400px;">중앙행정기관</span>
+                            
+							
+								<a href="javascript:openDetail('중앙행정기관','1543000','52')" title="농림축산식품부 상세페이지 이동" class="subject">농림축산식품부</a>
+							
+							
+						    
+                        </div>
+                        <div>
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/정부조직법/제29조');">설치근거</a>
+                            
+                            
+                            
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('http://www.law.go.kr/법령/농림축산식품부와그소속기관직제시행규칙');">관련법령</a>
+                            
+                            
+                            
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div>
+                            <!-- <input type="checkbox" id="openChkbx2" name="openChkbx" value="중앙행정기관,1451000,51" />&nbsp;&nbsp; -->
+                            <span>13</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="category" style="width:400px;">중앙행정기관</span>
+                            
+							
+								<a href="javascript:openDetail('중앙행정기관','1451000','51')" title="산업통상부 상세페이지 이동" class="subject">산업통상부</a>
+							
+							
+						    
+                        </div>
+                        <div>
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/정부조직법/제29조');">설치근거</a>
+                            
+                            
+                            
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/산업통상부와그소속기관직제시행규칙');">관련법령</a>
+                            
+                            
+                            
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div>
+                            <!-- <input type="checkbox" id="openChkbx3" name="openChkbx" value="중앙행정기관,1352000,50" />&nbsp;&nbsp; -->
+                            <span>14</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="category" style="width:400px;">중앙행정기관</span>
+                            
+							
+								<a href="javascript:openDetail('중앙행정기관','1352000','50')" title="보건복지부 상세페이지 이동" class="subject">보건복지부</a>
+							
+							
+						    
+                        </div>
+                        <div>
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/정부조직법/제29조');">설치근거</a>
+                            
+                            
+                            
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('http://www.law.go.kr/법령/보건복지부와그소속기관직제시행규칙');">관련법령</a>
+                            
+                            
+                            
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div>
+                            <!-- <input type="checkbox" id="openChkbx4" name="openChkbx" value="중앙행정기관,1482000,49" />&nbsp;&nbsp; -->
+                            <span>15</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="category" style="width:400px;">중앙행정기관</span>
+                            
+							
+								<a href="javascript:openDetail('중앙행정기관','1482000','49')" title="기후에너지환경부 상세페이지 이동" class="subject">기후에너지환경부</a>
+							
+							
+						    
+                        </div>
+                        <div>
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/정부조직법/제29조');">설치근거</a>
+                            
+                            
+                            
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/기후에너지환경부와그소속기관직제시행규칙');">관련법령</a>
+                            
+                            
+                            
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div>
+                            <!-- <input type="checkbox" id="openChkbx5" name="openChkbx" value="중앙행정기관,1492000,48" />&nbsp;&nbsp; -->
+                            <span>16</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="category" style="width:400px;">중앙행정기관</span>
+                            
+							
+								<a href="javascript:openDetail('중앙행정기관','1492000','48')" title="고용노동부 상세페이지 이동" class="subject">고용노동부</a>
+							
+							
+						    
+                        </div>
+                        <div>
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/정부조직법/제29조');">설치근거</a>
+                            
+                            
+                            
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('http://www.law.go.kr/법령/고용노동부와그소속기관직제시행규칙');">관련법령</a>
+                            
+                            
+                            
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div>
+                            <!-- <input type="checkbox" id="openChkbx6" name="openChkbx" value="중앙행정기관,1384000,47" />&nbsp;&nbsp; -->
+                            <span>17</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="category" style="width:400px;">중앙행정기관</span>
+                            
+							
+								<a href="javascript:openDetail('중앙행정기관','1384000','47')" title="성평등가족부 상세페이지 이동" class="subject">성평등가족부</a>
+							
+							
+						    
+                        </div>
+                        <div>
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/정부조직법/제29조');">설치근거</a>
+                            
+                            
+                            
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/성평등가족부직제시행규칙');">관련법령</a>
+                            
+                            
+                            
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div>
+                            <!-- <input type="checkbox" id="openChkbx7" name="openChkbx" value="중앙행정기관,1613000,46" />&nbsp;&nbsp; -->
+                            <span>18</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="category" style="width:400px;">중앙행정기관</span>
+                            
+							
+								<a href="javascript:openDetail('중앙행정기관','1613000','46')" title="국토교통부 상세페이지 이동" class="subject">국토교통부</a>
+							
+							
+						    
+                        </div>
+                        <div>
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/정부조직법/제29조');">설치근거</a>
+                            
+                            
+                            
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('http://www.law.go.kr/법령/국토교통부와그소속기관직제시행규칙');">관련법령</a>
+                            
+                            
+                            
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div>
+                            <!-- <input type="checkbox" id="openChkbx8" name="openChkbx" value="중앙행정기관,1192000,45" />&nbsp;&nbsp; -->
+                            <span>19</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="category" style="width:400px;">중앙행정기관</span>
+                            
+							
+								<a href="javascript:openDetail('중앙행정기관','1192000','45')" title="해양수산부 상세페이지 이동" class="subject">해양수산부</a>
+							
+							
+						    
+                        </div>
+                        <div>
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/정부조직법/제29조');">설치근거</a>
+                            
+                            
+                            
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('http://www.law.go.kr/법령/해양수산부와그소속기관직제시행규칙');">관련법령</a>
+                            
+                            
+                            
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div>
+                            <!-- <input type="checkbox" id="openChkbx9" name="openChkbx" value="중앙행정기관,1421000,44" />&nbsp;&nbsp; -->
+                            <span>20</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="category" style="width:400px;">중앙행정기관</span>
+                            
+							
+								<a href="javascript:openDetail('중앙행정기관','1421000','44')" title="중소벤처기업부 상세페이지 이동" class="subject">중소벤처기업부</a>
+							
+							
+						    
+                        </div>
+                        <div>
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('https://www.law.go.kr/법령/정부조직법/제29조');">설치근거</a>
+                            
+                            
+                            
+                            
+                            
+                                <a class="defaultLink blank" href="javascript:openLink('http://www.law.go.kr/법령/중소벤처기업부와그소속기관직제시행규칙');">관련법령</a>
+                            
+                            
+                            
+                        </div>
+                    </li>
+                    
+                </ul>
+                <div class="boardPaging">
+                   <a href="?pageIndex=1" onclick="fn_egov_select_linkPage(1);return false; " title="1페이지이동">1</a><a class="active" onClick="return false;">2</a><a href="?pageIndex=3" onclick="fn_egov_select_linkPage(3);return false; " title="3페이지이동">3</a><a href="?pageIndex=4" onclick="fn_egov_select_linkPage(4);return false; " title="4페이지이동">4</a><a href="?pageIndex=5" onclick="fn_egov_select_linkPage(5);return false; " title="5페이지이동">5</a><a href="?pageIndex=6" onclick="fn_egov_select_linkPage(6);return false; " title="6페이지이동">6</a><a href="?pageIndex=7" onclick="fn_egov_select_linkPage(7);return false; " title="7페이지이동">7</a>
+
+                </div>
+            </div>
+            <!--  del
+            <div class="compare-button">
+                <a href=""><i class="las la-sitemap"></i><br />기구도<br />비교하기</a>
+            </div>
+            
+            <div>
+                <div class="boardHead">
+                    <div class="search">
+                        <select name="대분류" class="selectBox">
+                            <option value="">선택</option>
+                            <option value="">분류</option>
+                            <option value="">기관명</option>
+                        </select>
+                        <input type="text" name="search" placeholder="검색어를 입력하세요" value="">
+                        <button class="btn_srch" type="button">검색</button>
+                    </div>
+                </div>
+                <ul class="boardList">
+                    <li>
+                        <div class="empty"><i class="las la-building"></i> 기관명을 검색해주세요.</div>
+                    </li>
+                </ul>
+            </div>
+            -->
+        </div>
+        <input id="pageIndex" name="pageIndex" type="hidden" value="2">
+        </form>
+    </div>
+    <script type="text/javascript" src="/js/egovframework/com/cmm/fms/EgovMultiFile.js"></script>	
+    <script type="text/javascript">
+
+	/*********************************************************
+	 * 페이징 처리 함수
+	 ******************************************************** */
+	function fn_egov_select_linkPage(pageNo){
+		document.articleForm.pageIndex.value = pageNo;
+		document.articleForm.action = "/cop/bbs/getInstiChartList.do";
+		document.articleForm.submit();
+	}
+
+	/*********************************************************
+	 * 조회 처리 함수
+	 ******************************************************** */
+	function fn_egov_search_article(){
+		document.articleForm.pageIndex.value = 1;
+		document.articleForm.submit();
+	}
+
+	
+	function clearSearchWrd() {
+		$("#searchWrd").val("");
+	}
+	
+	function openLink(link) {
+		window.open(link, '_blank');
+	}
+	
+// 	$(function(){
+// 		console.log(location.host)
+// 		if(location.host != "org.go.kr"){
+// 			$("#regisbtn").css("display","none")
+// 		}
+// 	})
+	function openDetail(codeNum,orgCode,chartId){
+		var uri = "/cop/bbs/getInstiChartDetail.do?codeNum="+codeNum+"&orgCode="+orgCode+"&chartId="+chartId+"";
+		document.location.href = encodeURI(uri);
+	}
+	
+	 </script>
+
+    <!-- footer -->
+    
+
+<!-- <div class="footer">
+        <div class="footerBox align-items-center footerCont">
+            <P class="footerLogo">
+                <img src="/hpg/images/logo.svg" alt="행정안전부 로고 ">
+            </P>
+            <div class="footerText">
+                <p>(우편번호) 30112, 세종특별자치시 도움6로 42(어진동) / (우편번호) 30112, 세종특별자치시 어진동 572 정부세종청사 중앙동 행정안전부</p>
+                <p>정부민원안내콜센터 국번없이 110 / 정부조직관리시스템 1544-9392 / 044-205-2314 (월∼금 09:00∼18:00, 공휴일제외)</p>
+                <p class="textGrey">ⓒ Ministry of the Interior and Safety. All rights reserved.</p>
+            </div>
+        </div>
+</div>  -->
+
+
+<style>
+
+/* 원래 푸터 */
+
+.footer2 {position:relative;width:100%; background-color: #121212; padding:16px;}
+.footerBox2{display:flex; align-items: center; width: 100%;max-width: 1280px;margin: 0 auto;}
+.footerLogo2 {position: relative;width:240px;padding:24px;}
+.footerText2 {width:80%;color:#f4f4f4; font-size:16px;padding:16px;}
+.textGrey2 {color:#999;}
+
+
+.footer2 .footerBox2.footerCont2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.footer2 {
+	margin: 0 0 10px 0;
+}
+
+
+.footerLogo2 {
+    position: relative;    
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+}
+
+.footer2 .footerLogo2 img {
+	display: block;
+	width: 180px;
+	height: auto;
+}
+
+.footer2 .footerText2 {
+	margin-left: 0 !important;
+	width: 100%;
+}
+
+.footer2 .footerText2 p {
+	margin: 0 0 4px 0;
+}
+
+.footerLine2 {
+	width: 100%;
+	height:1px;
+	margin:15px 0;
+	background:rgba(255,255,255,0.55); 
+}
+
+.footerLogo2 {
+	display : flex;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: nowrap;
+}
+
+.footerLogoText {
+	color: #fff;
+	font-size: 14px;
+	white-space: nowrap;
+}
+
+</style>
+
+<div class="footer2">
+        <div class="footerBox2 align-items-center footerCont2 ">
+            <P class="footerLogo2">
+               <img src="/images/logo.svg" alt="행정안전부 로고 ">
+            <!--     <img src="/hpg/images/mainLogo-02.svg" alt="정부조직관리정보시스템"> -->
+            </P>
+            <div class="footerText2">
+                <p>(우편번호) 30112, 세종특별자치시 도움6로 42(어진동) / (우편번호) 30112, 세종특별자치시 어진동 572 정부세종청사 중앙동 행정안전부</p>
+                <p>정부민원안내콜센터 국번없이 110 / 정부조직관리시스템 1544-9392 / 044-205-2314 (월∼금 09:00∼18:00, 공휴일제외)</p>
+                
+                <div class="footerLine2"></div>                
+                <p class="textGrey2">ⓒ Ministry of the Interior and Safety. All rights reserved.</p>
+            </div>    
+            
+            <div class="footerLogo2">
+               <img src="/images/org_logo.png" alt="조직관리정보시스템 로고 ">  
+               <span class="footerLogoText">이 누리집은 행정안전부 누리집입니다.</span>
+            </div>
+        </div> 
+</div>
+
+
+<a class="pageTop" href="javascript:;" title="맨 위로 이동하기"><span>맨 위로 이동하기</span></a>
+</body>
+</html>

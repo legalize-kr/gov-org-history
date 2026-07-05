@@ -1,0 +1,10 @@
+{
+  "available_snapshot_dates": 115,
+  "fetched_snapshots": 115,
+  "snapshot_nodes_min": 21,
+  "snapshot_nodes_max": 67,
+  "current_institutions": 63,
+  "reorganization_edges": 49,
+  "reference_library_records": 121,
+  "admin_machinery_change_files": 95
+}

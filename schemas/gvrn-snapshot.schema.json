@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalize.kr/schemas/gov-org-history/gvrn-snapshot.schema.json",
+  "title": "Government Organization Snapshot",
+  "type": "object",
+  "required": ["snapshot_id", "effective_date", "source", "node_count", "nodes"],
+  "properties": {
+    "snapshot_id": { "type": "string" },
+    "effective_date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "source": { "type": "object" },
+    "node_count": { "type": "integer", "minimum": 0 },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "parent_id", "valid_from", "legal_basis", "reorganization", "source_fields"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "full_name": { "type": "string" },
+          "parent_id": { "type": ["string", "null"] },
+          "root_id": { "type": ["string", "null"] },
+          "valid_from": { "type": ["string", "null"] },
+          "valid_to": { "type": ["string", "null"] },
+          "legal_basis": { "type": "array" },
+          "reorganization": {
+            "type": "object",
+            "required": ["source_value", "type", "related_ref"]
+          },
+          "source_fields": { "type": "object" }
+        }
+      }
+    }
+  }
+}
+

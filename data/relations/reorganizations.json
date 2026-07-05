@@ -1,0 +1,643 @@
+{
+  "generated_at": "2026-07-05T06:36:39+00:00",
+  "description": "Edges derived from org.go.kr reorganCode and relgoagCode fields.",
+  "edges": [
+    {
+      "effective_date": "2005-07-22",
+      "type": "promoted",
+      "source_value": "승격",
+      "source_ref": "",
+      "target_org_id": "1240000",
+      "target_name": "통계청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2005-07-22/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2005-07-22",
+      "type": "promoted",
+      "source_value": "승격",
+      "source_ref": "",
+      "target_org_id": "1360000",
+      "target_name": "기상청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2005-07-22/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2006-01-01",
+      "type": "other",
+      "source_value": "ssss,ssss",
+      "source_ref": "1430000,1532000",
+      "target_org_id": "1530000",
+      "target_name": "해양경찰청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2006-01-01/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2006-01-01",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1690000",
+      "target_name": "방위사업청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2006-01-01/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "merged",
+      "source_value": "통합",
+      "source_ref": "대통령비서실",
+      "target_org_id": "1011000",
+      "target_name": "대통령실",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "merged",
+      "source_value": "통합",
+      "source_ref": "기획예산처",
+      "target_org_id": "1051000",
+      "target_name": "기획재정부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1091000",
+      "target_name": "특임장관",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "merged",
+      "source_value": "통합",
+      "source_ref": "국무총리비서실",
+      "target_org_id": "1101000",
+      "target_name": "국무총리실",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "other",
+      "source_value": "명칭변경",
+      "source_ref": "금융감독위원회",
+      "target_org_id": "1160100",
+      "target_name": "금융위원회",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "merged",
+      "source_value": "통합",
+      "source_ref": "행정자치부",
+      "target_org_id": "1311000",
+      "target_name": "행정안전부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "other",
+      "source_value": "통합,분할",
+      "source_ref": "통합(교육인적자원부), 분할(과학기술부)",
+      "target_org_id": "1341000",
+      "target_name": "교육과학기술부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "other",
+      "source_value": "소속변경",
+      "source_ref": "과학기술부 기상청",
+      "target_org_id": "1360000",
+      "target_name": "기상청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "merged",
+      "source_value": "통합",
+      "source_ref": "국정홍보처",
+      "target_org_id": "1371000",
+      "target_name": "문화체육관광부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "other",
+      "source_value": "통합,분할",
+      "source_ref": "통합(산업자원부),분할(과학기술부)",
+      "target_org_id": "1411000",
+      "target_name": "지식경제부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "other",
+      "source_value": "통합,분할",
+      "source_ref": "통합(농림부),분할(해양수산부)",
+      "target_org_id": "1541000",
+      "target_name": "농림수산식품부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2008-02-29",
+      "type": "other",
+      "source_value": "통합,분할",
+      "source_ref": "통합(건설교통부),분할(해양수산부)",
+      "target_org_id": "1611000",
+      "target_name": "국토해양부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2008-02-29/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2010-03-19",
+      "type": "other",
+      "source_value": "명칭변경",
+      "source_ref": "보건복지가족부",
+      "target_org_id": "1352000",
+      "target_name": "보건복지부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2010-03-19/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2010-03-19",
+      "type": "other",
+      "source_value": "분할,명칭변경",
+      "source_ref": "분할(보건복지부), 명칭변경(여성부)",
+      "target_org_id": "1383000",
+      "target_name": "여성가족부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2010-03-19/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2010-07-05",
+      "type": "other",
+      "source_value": "명칭변경",
+      "source_ref": "노동부",
+      "target_org_id": "1492000",
+      "target_name": "고용노동부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2010-07-05/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-03-23",
+      "type": "other",
+      "source_value": "분할",
+      "source_ref": "대통령실",
+      "target_org_id": "1015000",
+      "target_name": "대통령비서실",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-03-23/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-03-23",
+      "type": "other",
+      "source_value": "분할",
+      "source_ref": "대통령실",
+      "target_org_id": "1021000",
+      "target_name": "대통령경호실",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-03-23/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-03-23",
+      "type": "other",
+      "source_value": "분할",
+      "source_ref": "국무총리실",
+      "target_org_id": "1092000",
+      "target_name": "국무조정실",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-03-23/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-03-23",
+      "type": "other",
+      "source_value": "분할",
+      "source_ref": "국무총리실",
+      "target_org_id": "1103000",
+      "target_name": "국무총리비서실",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-03-23/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-03-23",
+      "type": "other",
+      "source_value": "분할",
+      "source_ref": "국토해양부",
+      "target_org_id": "1192000",
+      "target_name": "해양수산부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-03-23/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-03-23",
+      "type": "other",
+      "source_value": "명칭변경",
+      "source_ref": "행정안전부",
+      "target_org_id": "1312000",
+      "target_name": "안전행정부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-03-23/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-03-23",
+      "type": "other",
+      "source_value": "분할",
+      "source_ref": "교육과학기술부",
+      "target_org_id": "1342000",
+      "target_name": "교육부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-03-23/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-03-23",
+      "type": "other",
+      "source_value": "명칭변경",
+      "source_ref": "지식경제부",
+      "target_org_id": "1450000",
+      "target_name": "산업통상자원부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-03-23/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-03-23",
+      "type": "other",
+      "source_value": "소속변경",
+      "source_ref": "국토교통부",
+      "target_org_id": "1530000",
+      "target_name": "해양경찰청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-03-23/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-03-23",
+      "type": "other",
+      "source_value": "분할",
+      "source_ref": "국토해양부",
+      "target_org_id": "1613000",
+      "target_name": "국토교통부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-03-23/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-03-23",
+      "type": "other",
+      "source_value": "분할",
+      "source_ref": "교육과학기술부",
+      "target_org_id": "1710000",
+      "target_name": "미래창조과학부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-03-23/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2013-09-12",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1730000",
+      "target_name": "새만금개발청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2013-09-12/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2014-11-19",
+      "type": "other",
+      "source_value": "분할",
+      "source_ref": "안전행정부",
+      "target_org_id": "1740000",
+      "target_name": "행정자치부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2014-11-19/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2014-11-19",
+      "type": "other",
+      "source_value": "분할,통합",
+      "source_ref": "분할(안전행정부), 통합(소방방재청",
+      "target_org_id": "1750000",
+      "target_name": "국민안전처",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2014-11-19/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2014-11-19",
+      "type": "other",
+      "source_value": "분할",
+      "source_ref": "안전행정부",
+      "target_org_id": "1760000",
+      "target_name": "인사혁신처",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2014-11-19/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2024-05-17",
+      "type": "promoted",
+      "source_value": "승격",
+      "source_ref": "국가보훈처",
+      "target_org_id": "1830000",
+      "target_name": "국가보훈부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2024-05-17/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2024-05-17",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1832000",
+      "target_name": "재외동포청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2024-05-17/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2024-05-17",
+      "type": "reorganized",
+      "source_value": "개편",
+      "source_ref": "1550000",
+      "target_org_id": "1833100",
+      "target_name": "국가유산청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2024-05-17/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2024-05-27",
+      "type": "promoted",
+      "source_value": "승격",
+      "source_ref": "국가보훈처",
+      "target_org_id": "1830000",
+      "target_name": "국가보훈부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2024-05-27/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2024-05-27",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1832000",
+      "target_name": "재외동포청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2024-05-27/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2024-05-27",
+      "type": "reorganized",
+      "source_value": "개편",
+      "source_ref": "1550000",
+      "target_org_id": "1833100",
+      "target_name": "국가유산청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2024-05-27/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2024-05-27",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1834100",
+      "target_name": "우주항공청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2024-05-27/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2025-10-01",
+      "type": "promoted",
+      "source_value": "승격",
+      "source_ref": "국가보훈처",
+      "target_org_id": "1830000",
+      "target_name": "국가보훈부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2025-10-01/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2025-10-01",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1832000",
+      "target_name": "재외동포청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2025-10-01/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2025-10-01",
+      "type": "reorganized",
+      "source_value": "개편",
+      "source_ref": "1550000",
+      "target_org_id": "1833100",
+      "target_name": "국가유산청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2025-10-01/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2025-10-01",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1834100",
+      "target_name": "우주항공청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2025-10-01/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2026-01-02",
+      "type": "promoted",
+      "source_value": "승격",
+      "source_ref": "국가보훈처",
+      "target_org_id": "1830000",
+      "target_name": "국가보훈부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2026-01-02/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2026-01-02",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1832000",
+      "target_name": "재외동포청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2026-01-02/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2026-01-02",
+      "type": "reorganized",
+      "source_value": "개편",
+      "source_ref": "1550000",
+      "target_org_id": "1833100",
+      "target_name": "국가유산청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2026-01-02/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2026-01-02",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1834100",
+      "target_name": "우주항공청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2026-01-02/snapshot.json"
+      }
+    }
+  ]
+}

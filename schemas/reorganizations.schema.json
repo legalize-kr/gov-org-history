@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalize.kr/schemas/gov-org-history/reorganizations.schema.json",
+  "title": "Government Organization Reorganization Edges",
+  "type": "object",
+  "required": ["generated_at", "description", "edges"],
+  "properties": {
+    "generated_at": { "type": "string" },
+    "description": { "type": "string" },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["effective_date", "type", "source_value", "source_ref", "target_org_id", "target_name", "evidence"],
+        "properties": {
+          "effective_date": { "type": "string" },
+          "type": { "type": "string" },
+          "source_value": { "type": "string" },
+          "source_ref": { "type": "string" },
+          "target_org_id": { "type": "string" },
+          "target_name": { "type": "string" },
+          "evidence": { "type": "object" }
+        }
+      }
+    }
+  }
+}
+

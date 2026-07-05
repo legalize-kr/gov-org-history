@@ -1,0 +1,674 @@
+{
+  "source": {
+    "page_url": "https://org.go.kr/orgnzt/chnge/viewAdmnstMach.do",
+    "fetched_at": "2026-07-05T06:37:27+00:00"
+  },
+  "count": 95,
+  "records": [
+    {
+      "title": "정부조직개황",
+      "file_id": "orgnzt_chnge_0001",
+      "section": "",
+      "group": "파일다운로드받기",
+      "download_url": "https://org.go.kr/main/attach.do?item=orgnzt_chnge_0001"
+    },
+    {
+      "title": "조직변천연혁",
+      "file_id": "orgnzt_chnge_0002",
+      "section": "",
+      "group": "파일다운로드받기",
+      "download_url": "https://org.go.kr/main/attach.do?item=orgnzt_chnge_0002"
+    },
+    {
+      "title": "정부조직변천",
+      "file_id": "orgnzt_chnge_0003",
+      "section": "",
+      "group": "파일다운로드받기",
+      "download_url": "https://org.go.kr/main/attach.do?item=orgnzt_chnge_0003"
+    },
+    {
+      "title": "정부기구변천",
+      "file_id": "orgnzt_chnge_0004",
+      "section": "",
+      "group": "파일다운로드받기",
+      "download_url": "https://org.go.kr/main/attach.do?item=orgnzt_chnge_0004"
+    },
+    {
+      "title": "공무원정원변천",
+      "file_id": "orgnzt_chnge_0005",
+      "section": "",
+      "group": "파일다운로드받기",
+      "download_url": "https://org.go.kr/main/attach.do?item=orgnzt_chnge_0005"
+    },
+    {
+      "title": "대통령실",
+      "file_id": "admnstMach_system_01_0001",
+      "section": "tab-content1",
+      "group": "구분명(실)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0001"
+    },
+    {
+      "title": "국무총리실",
+      "file_id": "admnstMach_system_01_0006",
+      "section": "tab-content1",
+      "group": "구분명(실)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0006"
+    },
+    {
+      "title": "특임장관실",
+      "file_id": "admnstMach_system_01_0007",
+      "section": "tab-content1",
+      "group": "구분명(실)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0007"
+    },
+    {
+      "title": "기획재정부",
+      "file_id": "admnstMach_system_01_0013",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0013"
+    },
+    {
+      "title": "교육과학기술부",
+      "file_id": "admnstMach_system_01_0014",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0014"
+    },
+    {
+      "title": "외교통상부",
+      "file_id": "admnstMach_system_01_0015",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0015"
+    },
+    {
+      "title": "통일부",
+      "file_id": "admnstMach_system_01_0016",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0016"
+    },
+    {
+      "title": "법무부",
+      "file_id": "admnstMach_system_01_0017",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0017"
+    },
+    {
+      "title": "국방부",
+      "file_id": "admnstMach_system_01_0018",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0018"
+    },
+    {
+      "title": "행정안전부",
+      "file_id": "admnstMach_system_01_0019",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0019"
+    },
+    {
+      "title": "문화체육관광부",
+      "file_id": "admnstMach_system_01_0020",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0020"
+    },
+    {
+      "title": "농림수산식품부",
+      "file_id": "admnstMach_system_01_0023",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0023"
+    },
+    {
+      "title": "지식경제부",
+      "file_id": "admnstMach_system_01_0024",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0024"
+    },
+    {
+      "title": "보건복지부",
+      "file_id": "admnstMach_system_01_0025",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0025"
+    },
+    {
+      "title": "환경부",
+      "file_id": "admnstMach_system_01_0026",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0026"
+    },
+    {
+      "title": "고용노동부",
+      "file_id": "admnstMach_system_01_0027",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0027"
+    },
+    {
+      "title": "여성가족부",
+      "file_id": "admnstMach_system_01_0028",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0028"
+    },
+    {
+      "title": "국토해양부",
+      "file_id": "admnstMach_system_01_0029",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0029"
+    },
+    {
+      "title": "민주평화통일자문회의사무처",
+      "file_id": "admnstMach_system_01_0005",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0005"
+    },
+    {
+      "title": "법제처",
+      "file_id": "admnstMach_system_01_0008",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0008"
+    },
+    {
+      "title": "국가보훈처",
+      "file_id": "admnstMach_system_01_0009",
+      "section": "tab-content1",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0009"
+    },
+    {
+      "title": "국세청",
+      "file_id": "admnstMach_system_01_0030",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0030"
+    },
+    {
+      "title": "관세청",
+      "file_id": "admnstMach_system_01_0031",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0031"
+    },
+    {
+      "title": "조달청",
+      "file_id": "admnstMach_system_01_0032",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0032"
+    },
+    {
+      "title": "통계청",
+      "file_id": "admnstMach_system_01_0033",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0033"
+    },
+    {
+      "title": "검찰청",
+      "file_id": "admnstMach_system_01_0034",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0034"
+    },
+    {
+      "title": "병무청",
+      "file_id": "admnstMach_system_01_0035",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0035"
+    },
+    {
+      "title": "방위사업청",
+      "file_id": "admnstMach_system_01_0036",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0036"
+    },
+    {
+      "title": "경찰청",
+      "file_id": "admnstMach_system_01_0037",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0037"
+    },
+    {
+      "title": "소방방재청",
+      "file_id": "admnstMach_system_01_0038",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0038"
+    },
+    {
+      "title": "문화재청",
+      "file_id": "admnstMach_system_01_0039",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0039"
+    },
+    {
+      "title": "농총진흥청",
+      "file_id": "admnstMach_system_01_0040",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0040"
+    },
+    {
+      "title": "산림청",
+      "file_id": "admnstMach_system_01_0041",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0041"
+    },
+    {
+      "title": "중소기업청",
+      "file_id": "admnstMach_system_01_0042",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0042"
+    },
+    {
+      "title": "특허청",
+      "file_id": "admnstMach_system_01_0043",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0043"
+    },
+    {
+      "title": "식품의약품안전청",
+      "file_id": "admnstMach_system_01_0044",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0044"
+    },
+    {
+      "title": "기상청",
+      "file_id": "admnstMach_system_01_0045",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0045"
+    },
+    {
+      "title": "해양경찰청",
+      "file_id": "admnstMach_system_01_0046",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0046"
+    },
+    {
+      "title": "행정중심복합도시건설청",
+      "file_id": "admnstMach_system_01_0047",
+      "section": "tab-content1",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0047"
+    },
+    {
+      "title": "방송통신위원회",
+      "file_id": "admnstMach_system_01_0002",
+      "section": "tab-content1",
+      "group": "구분명(위원회·국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0002"
+    },
+    {
+      "title": "국가과학기술위원회",
+      "file_id": "admnstMach_system_01_0003",
+      "section": "tab-content1",
+      "group": "구분명(위원회·국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0003"
+    },
+    {
+      "title": "원자력안전위원회",
+      "file_id": "admnstMach_system_01_0004",
+      "section": "tab-content1",
+      "group": "구분명(위원회·국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0004"
+    },
+    {
+      "title": "공정거래위원회",
+      "file_id": "admnstMach_system_01_0010",
+      "section": "tab-content1",
+      "group": "구분명(위원회·국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0010"
+    },
+    {
+      "title": "금융위원회",
+      "file_id": "admnstMach_system_01_0011",
+      "section": "tab-content1",
+      "group": "구분명(위원회·국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0011"
+    },
+    {
+      "title": "국민권익위원회",
+      "file_id": "admnstMach_system_01_0012",
+      "section": "tab-content1",
+      "group": "구분명(위원회·국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0012"
+    },
+    {
+      "title": "사행산업통합감독위원회",
+      "file_id": "admnstMach_system_01_0022",
+      "section": "tab-content1",
+      "group": "구분명(위원회·국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0022"
+    },
+    {
+      "title": "국가인원위원회",
+      "file_id": "admnstMach_system_01_0048",
+      "section": "tab-content1",
+      "group": "구분명(위원회·국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0048"
+    },
+    {
+      "title": "개인정보보호위원회",
+      "file_id": "admnstMach_system_01_0050",
+      "section": "tab-content1",
+      "group": "구분명(위원회·국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0050"
+    },
+    {
+      "title": "대일항쟁기강제동원피해조사 및 국외강제동원회생자등 지원위원회",
+      "file_id": "admnstMach_system_01_0049",
+      "section": "tab-content1",
+      "group": "구분명(위원회·국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0049"
+    },
+    {
+      "title": "대한민국예술원사무국",
+      "file_id": "admnstMach_system_01_0021",
+      "section": "tab-content1",
+      "group": "구분명(위원회·국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_01_0021"
+    },
+    {
+      "title": "대한민국 정부조직개황(1948-1998)",
+      "file_id": "admnstMach_system_02_0001",
+      "section": "tab-content2",
+      "group": "구분명(정부조직개황 및 기구정원)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0001"
+    },
+    {
+      "title": "정부조직의변천 기구정원(1948-1998)",
+      "file_id": "admnstMach_system_02_0002",
+      "section": "tab-content2",
+      "group": "구분명(정부조직개황 및 기구정원)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0002"
+    },
+    {
+      "title": "대통령직속기관",
+      "file_id": "admnstMach_system_02_0003",
+      "section": "tab-content2",
+      "group": "구분명(기관)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0003"
+    },
+    {
+      "title": "국무총리직속기관",
+      "file_id": "admnstMach_system_02_0004",
+      "section": "tab-content2",
+      "group": "구분명(기관)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0004"
+    },
+    {
+      "title": "법제처",
+      "file_id": "admnstMach_system_02_0005",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0005"
+    },
+    {
+      "title": "국가보훈처",
+      "file_id": "admnstMach_system_02_0006",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0006"
+    },
+    {
+      "title": "재정경제부",
+      "file_id": "admnstMach_system_02_0007",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0007"
+    },
+    {
+      "title": "통일부",
+      "file_id": "admnstMach_system_02_0013",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0013"
+    },
+    {
+      "title": "외교통산부",
+      "file_id": "admnstMach_system_02_0014",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0014"
+    },
+    {
+      "title": "법무부",
+      "file_id": "admnstMach_system_02_0015",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0015"
+    },
+    {
+      "title": "국방부",
+      "file_id": "admnstMach_system_02_0017",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0017"
+    },
+    {
+      "title": "행정안전부",
+      "file_id": "admnstMach_system_02_0019",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0019"
+    },
+    {
+      "title": "교육부",
+      "file_id": "admnstMach_system_02_0021",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0021"
+    },
+    {
+      "title": "과학기술부",
+      "file_id": "admnstMach_system_02_0022",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0022"
+    },
+    {
+      "title": "문화관광부",
+      "file_id": "admnstMach_system_02_0024",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0024"
+    },
+    {
+      "title": "농림부",
+      "file_id": "admnstMach_system_02_0026",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0026"
+    },
+    {
+      "title": "산업자원부",
+      "file_id": "admnstMach_system_02_0029",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0029"
+    },
+    {
+      "title": "정보통신부",
+      "file_id": "admnstMach_system_02_0032",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0032"
+    },
+    {
+      "title": "보건복지부",
+      "file_id": "admnstMach_system_02_0033",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0033"
+    },
+    {
+      "title": "환경부",
+      "file_id": "admnstMach_system_02_0035",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0035"
+    },
+    {
+      "title": "노동부",
+      "file_id": "admnstMach_system_02_0036",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0036"
+    },
+    {
+      "title": "건설교통부",
+      "file_id": "admnstMach_system_02_0037",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0037"
+    },
+    {
+      "title": "해양수산부",
+      "file_id": "admnstMach_system_02_0039",
+      "section": "tab-content2",
+      "group": "구분명(부·처)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0039"
+    },
+    {
+      "title": "예산청",
+      "file_id": "admnstMach_system_02_0008",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0008"
+    },
+    {
+      "title": "국세청",
+      "file_id": "admnstMach_system_02_0009",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0009"
+    },
+    {
+      "title": "관세청",
+      "file_id": "admnstMach_system_02_0010",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0010"
+    },
+    {
+      "title": "조달청",
+      "file_id": "admnstMach_system_02_0011",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0011"
+    },
+    {
+      "title": "통계청",
+      "file_id": "admnstMach_system_02_0012",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0012"
+    },
+    {
+      "title": "검찰청",
+      "file_id": "admnstMach_system_02_0016",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0016"
+    },
+    {
+      "title": "병무청",
+      "file_id": "admnstMach_system_02_0018",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0018"
+    },
+    {
+      "title": "경찰청",
+      "file_id": "admnstMach_system_02_0020",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0020"
+    },
+    {
+      "title": "기상청",
+      "file_id": "admnstMach_system_02_0023",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0023"
+    },
+    {
+      "title": "농촌진흥청",
+      "file_id": "admnstMach_system_02_0027",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0027"
+    },
+    {
+      "title": "산림청",
+      "file_id": "admnstMach_system_02_0028",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0028"
+    },
+    {
+      "title": "중소기업청",
+      "file_id": "admnstMach_system_02_0030",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0030"
+    },
+    {
+      "title": "특허청",
+      "file_id": "admnstMach_system_02_0031",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0031"
+    },
+    {
+      "title": "식품의약품안전청",
+      "file_id": "admnstMach_system_02_0034",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0034"
+    },
+    {
+      "title": "철도청",
+      "file_id": "admnstMach_system_02_0038",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0038"
+    },
+    {
+      "title": "해양경찰청",
+      "file_id": "admnstMach_system_02_0040",
+      "section": "tab-content2",
+      "group": "구분명(청)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0040"
+    },
+    {
+      "title": "문화재관리국",
+      "file_id": "admnstMach_system_02_0025",
+      "section": "tab-content2",
+      "group": "구분명(국)",
+      "download_url": "https://org.go.kr/main/attach.do?item=admnstMach_system_02_0025"
+    }
+  ]
+}

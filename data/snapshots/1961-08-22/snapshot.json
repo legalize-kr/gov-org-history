@@ -1,0 +1,1532 @@
+{
+  "snapshot_id": "gvrn-1961-08-22",
+  "effective_date": "1961-08-22",
+  "source": {
+    "site": "정부조직관리정보시스템",
+    "page_url": "https://org.go.kr/oam/gvrnOrgChartView.ifrm?flag=gov",
+    "endpoint": "https://org.go.kr/oam/selectGvrnOrgViewList.do",
+    "date_endpoint": "https://org.go.kr/oam/selectEfYdList.do",
+    "request_payload": {
+      "pageName": "대국민서비스 기구도 조회",
+      "efYd": "19610822"
+    },
+    "source_date_code": "19610822",
+    "source_date_label": "정부조직법 <1961-08-22>",
+    "fetched_at": "2026-07-05T06:36:39+00:00"
+  },
+  "node_count": 27,
+  "nodes": [
+    {
+      "id": "0000002",
+      "name": "국무총리",
+      "full_name": "국무총리",
+      "abbreviation": "",
+      "english_name": "Prime Minister",
+      "english_abbreviation": "",
+      "parent_id": null,
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "1",
+        "level": "1",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "02",
+        "medium": "02",
+        "small": "09",
+        "chief_grade_code": "01",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7663,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "0000002",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790267",
+      "name": "경제기획원",
+      "full_name": "경제기획원",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "1",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "03",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7683,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790267",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790357",
+      "name": "국토건설청",
+      "full_name": "국토건설청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790267",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "1",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7684,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790357",
+        "upOrgCode": "1790267",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790344",
+      "name": "중앙경제위원회",
+      "full_name": "중앙경제위원회",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790267",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "2",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "04",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7689,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790344",
+        "upOrgCode": "1790267",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790353",
+      "name": "국무원사무처",
+      "full_name": "국무원사무처",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "2",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "05",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7692,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790353",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790329",
+      "name": "심계원",
+      "full_name": "심계원",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "3",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "03",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7690,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790329",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790354",
+      "name": "공안위원회",
+      "full_name": "공안위원회",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "1",
+        "level": "3",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "04",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7691,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790354",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790351",
+      "name": "구황실재산사무총국",
+      "full_name": "구황실재산사무총국",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "2",
+        "level": "3",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7688,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790351",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790323",
+      "name": "원자력원",
+      "full_name": "원자력원",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "3",
+        "level": "3",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "03",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7685,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790323",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790359",
+      "name": "군사원호청",
+      "full_name": "군사원호청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "4",
+        "level": "3",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7686,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790359",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790243",
+      "name": "외무부",
+      "full_name": "외무부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "1",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7664,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790243",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790265",
+      "name": "교통부",
+      "full_name": "교통부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "10",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7672,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790265",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790266",
+      "name": "체신부",
+      "full_name": "체신부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "11",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7673,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790266",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790321",
+      "name": "공보부",
+      "full_name": "공보부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "12",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7674,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790321",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790244",
+      "name": "내무부",
+      "full_name": "내무부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "2",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7665,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790244",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790261",
+      "name": "재무부",
+      "full_name": "재무부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "3",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7666,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790261",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1270000",
+      "name": "법무부",
+      "full_name": "법무부",
+      "abbreviation": "",
+      "english_name": "Ministry of Justice",
+      "english_abbreviation": "MOJ",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "4",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7667,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1270000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1290000",
+      "name": "국방부",
+      "full_name": "국방부",
+      "abbreviation": "",
+      "english_name": "Ministry of National Defense",
+      "english_abbreviation": "MND",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "5",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7668,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1290000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790273",
+      "name": "문교부",
+      "full_name": "문교부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "6",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7669,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790273",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790315",
+      "name": "농림부",
+      "full_name": "농림부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "7",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7670,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790315",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790271",
+      "name": "상공부",
+      "full_name": "상공부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "8",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7671,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790271",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790264",
+      "name": "보건사회부",
+      "full_name": "보건사회부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "9",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7659,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790264",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790292",
+      "name": "전매청",
+      "full_name": "전매청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790261",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "1",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7675,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790292",
+        "upOrgCode": "1790261",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790337",
+      "name": "외자청",
+      "full_name": "외자청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790261",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "2",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7676,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790337",
+        "upOrgCode": "1790261",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1280000",
+      "name": "검찰청",
+      "full_name": "검찰청",
+      "abbreviation": "",
+      "english_name": "Supreme Prosecutors' Office",
+      "english_abbreviation": "SPO",
+      "parent_id": "1270000",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "3",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7682,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1280000",
+        "upOrgCode": "1270000",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790360",
+      "name": "농사원",
+      "full_name": "농사원",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790315",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "4",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "08",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7751,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790360",
+        "upOrgCode": "1790315",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790338",
+      "name": "해무청",
+      "full_name": "해무청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790271",
+      "root_id": "0000002",
+      "valid_from": "1961-08-22",
+      "valid_to": "1961-08-24",
+      "display": {
+        "rank_no": "5",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "001720",
+          "law_name": "정부조직법",
+          "effective_date": "1961-08-22",
+          "law_go_kr_url": "https://www.law.go.kr/법령/정부조직법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7687,
+        "orgEsntlCode": 0,
+        "lsiSeq": 5760,
+        "lsId": "001720",
+        "lsNm": "정부조직법",
+        "lsiEfYd": "19610822",
+        "efGubun": "1",
+        "orgCode": "1790338",
+        "upOrgCode": "1790271",
+        "rootOrgCode": "0000002",
+        "efYd": "19610822",
+        "edYd": "19610824",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    }
+  ]
+}

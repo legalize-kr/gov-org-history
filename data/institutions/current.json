@@ -1,0 +1,1560 @@
+{
+  "source": {
+    "site": "정부조직관리정보시스템",
+    "page_url": "https://org.go.kr/cop/bbs/getInstiChartList.do",
+    "fetched_at": "2026-07-05T06:37:09+00:00",
+    "pages": [
+      {
+        "page": 1,
+        "url": "https://org.go.kr/cop/bbs/getInstiChartList.do",
+        "records": 10
+      },
+      {
+        "page": 2,
+        "url": "https://org.go.kr/cop/bbs/getInstiChartList.do?pageIndex=2",
+        "records": 10
+      },
+      {
+        "page": 3,
+        "url": "https://org.go.kr/cop/bbs/getInstiChartList.do?pageIndex=3",
+        "records": 10
+      },
+      {
+        "page": 4,
+        "url": "https://org.go.kr/cop/bbs/getInstiChartList.do?pageIndex=4",
+        "records": 10
+      },
+      {
+        "page": 5,
+        "url": "https://org.go.kr/cop/bbs/getInstiChartList.do?pageIndex=5",
+        "records": 10
+      },
+      {
+        "page": 6,
+        "url": "https://org.go.kr/cop/bbs/getInstiChartList.do?pageIndex=6",
+        "records": 10
+      },
+      {
+        "page": 7,
+        "url": "https://org.go.kr/cop/bbs/getInstiChartList.do?pageIndex=7",
+        "records": 3
+      }
+    ],
+    "total_count_reported": 63
+  },
+  "count": 63,
+  "organizations": [
+    {
+      "name": "선거관리위원회",
+      "category": "헌법기관",
+      "code_num": "헌법기관",
+      "org_code": "9760000",
+      "chart_id": "1",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%ED%97%8C%EB%B2%95%EA%B8%B0%EA%B4%80&orgCode=9760000&chartId=1",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/선거관리위원회법/제2조",
+          "law_name": "선거관리위원회법",
+          "article": "제2조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/선거관리위원회법시행규칙",
+          "law_name": "선거관리위원회법시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "국무조정실",
+      "category": "중앙행정기관에 준하는 기관",
+      "code_num": "중앙행정기관에 준하는 기관",
+      "org_code": "1092000",
+      "chart_id": "10",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80%EC%97%90%20%EC%A4%80%ED%95%98%EB%8A%94%20%EA%B8%B0%EA%B4%80&orgCode=1092000&chartId=10",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제20조",
+          "law_name": "정부조직법",
+          "article": "제20조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/국무조정실과그소속기관직제",
+          "law_name": "국무조정실과그소속기관직제",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "대통령경호처",
+      "category": "중앙행정기관에 준하는 기관",
+      "code_num": "중앙행정기관에 준하는 기관",
+      "org_code": "1021100",
+      "chart_id": "11",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80%EC%97%90%20%EC%A4%80%ED%95%98%EB%8A%94%20%EA%B8%B0%EA%B4%80&orgCode=1021100&chartId=11",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제16조",
+          "law_name": "정부조직법",
+          "article": "제16조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/대통령경호처와그소속기관직제",
+          "law_name": "대통령경호처와그소속기관직제",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "국가안보실",
+      "category": "중앙행정기관에 준하는 기관",
+      "code_num": "중앙행정기관에 준하는 기관",
+      "org_code": "1025000",
+      "chart_id": "12",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80%EC%97%90%20%EC%A4%80%ED%95%98%EB%8A%94%20%EA%B8%B0%EA%B4%80&orgCode=1025000&chartId=12",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제15조",
+          "law_name": "정부조직법",
+          "article": "제15조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/국가안보실직제",
+          "law_name": "국가안보실직제",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "대통령비서실",
+      "category": "중앙행정기관에 준하는 기관",
+      "code_num": "중앙행정기관에 준하는 기관",
+      "org_code": "1015000",
+      "chart_id": "13",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80%EC%97%90%20%EC%A4%80%ED%95%98%EB%8A%94%20%EA%B8%B0%EA%B4%80&orgCode=1015000&chartId=13",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제14조",
+          "law_name": "정부조직법",
+          "article": "제14조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/대통령비서실직제",
+          "law_name": "대통령비서실직제",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "감사원",
+      "category": "중앙행정기관에 준하는 기관",
+      "code_num": "중앙행정기관에 준하는 기관",
+      "org_code": "1040000",
+      "chart_id": "14",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80%EC%97%90%20%EC%A4%80%ED%95%98%EB%8A%94%20%EA%B8%B0%EA%B4%80&orgCode=1040000&chartId=14",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/대한민국헌법/제97조",
+          "law_name": "대한민국헌법",
+          "article": "제97조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/감사원사무처직제",
+          "law_name": "감사원사무처직제",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "원자력안전위원회",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1079960",
+      "chart_id": "15",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1079960&chartId=15",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/원자력안전위원회의설치및운영에관한법률/제3조",
+          "law_name": "원자력안전위원회의설치및운영에관한법률",
+          "article": "제3조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/원자력안전위원회와그소속기관직제시행규칙",
+          "law_name": "원자력안전위원회와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "개인정보보호위원회",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1790365",
+      "chart_id": "16",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1790365&chartId=16",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/개인정보보호법/제7조",
+          "law_name": "개인정보보호법",
+          "article": "제7조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/개인정보보호위원회직제시행규칙",
+          "law_name": "개인정보보호위원회직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "금융위원회",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1160100",
+      "chart_id": "17",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1160100&chartId=17",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/금융위원회의설치등에관한법률/제3조",
+          "law_name": "금융위원회의설치등에관한법률",
+          "article": "제3조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/금융위원회와그소속기관직제시행규칙",
+          "law_name": "금융위원회와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "국민권익위원회",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1140100",
+      "chart_id": "18",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1140100&chartId=18",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/부패방지및국민권익위원회의설치와운영에관한법률/제11조",
+          "law_name": "부패방지및국민권익위원회의설치와운영에관한법률",
+          "article": "제11조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/국민권익위원회와그소속기관직제시행규칙",
+          "law_name": "국민권익위원회와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "공정거래위원회",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1130000",
+      "chart_id": "19",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1130000&chartId=19",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/독점규제및공정거래에관한법률/제54조",
+          "law_name": "독점규제및공정거래에관한법률",
+          "article": "제54조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/공정거래위원회와그소속기관직제시행규칙",
+          "law_name": "공정거래위원회와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "헌법재판소",
+      "category": "헌법기관",
+      "code_num": "헌법기관",
+      "org_code": "9750000",
+      "chart_id": "2",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%ED%97%8C%EB%B2%95%EA%B8%B0%EA%B4%80&orgCode=9750000&chartId=2",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/헌법재판소법",
+          "law_name": "헌법재판소법",
+          "article": ""
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/헌법재판소법/제5조",
+          "law_name": "헌법재판소법",
+          "article": "제5조"
+        }
+      ]
+    },
+    {
+      "name": "방송미디어통신위원회",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1571000",
+      "chart_id": "20",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1571000&chartId=20",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/방송미디어통신위원회의설치및운영에관한법률/제3조",
+          "law_name": "방송미디어통신위원회의설치및운영에관한법률",
+          "article": "제3조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/방송미디어통신위원회와그소속기관직제",
+          "law_name": "방송미디어통신위원회와그소속기관직제",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "해양경찰청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1532000",
+      "chart_id": "21",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1532000&chartId=21",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제47조",
+          "law_name": "정부조직법",
+          "article": "제47조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/해양경찰청과그소속기관직제시행규칙",
+          "law_name": "해양경찰청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "새만금개발청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1730000",
+      "chart_id": "22",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1730000&chartId=22",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/새만금사업추진및지원에관한특별법/제34조",
+          "law_name": "새만금사업추진및지원에관한특별법",
+          "article": "제34조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/새만금개발청직제시행규칙",
+          "law_name": "새만금개발청직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "행정중심복합도시건설청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1670000",
+      "chart_id": "23",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1670000&chartId=23",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/신행정수도후속대책을위한연기ㆍ공주지역행정중심복합도시건설을위한특별법/제38조",
+          "law_name": "신행정수도후속대책을위한연기ㆍ공주지역행정중심복합도시건설을위한특별법",
+          "article": "제38조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/행정중심복합도시건설청직제시행규칙",
+          "law_name": "행정중심복합도시건설청직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "기상청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1360000",
+      "chart_id": "24",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1360000&chartId=24",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제43조",
+          "law_name": "정부조직법",
+          "article": "제43조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/기상청과그소속기관직제시행규칙",
+          "law_name": "기상청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "질병관리청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1790387",
+      "chart_id": "25",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1790387&chartId=25",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제42조",
+          "law_name": "정부조직법",
+          "article": "제42조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/질병관리청과그소속기관직제시행규칙",
+          "law_name": "질병관리청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "지식재산처",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1431000",
+      "chart_id": "26",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1431000&chartId=26",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제28조",
+          "law_name": "정부조직법",
+          "article": "제28조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/지식재산처와그소속기관직제시행규칙",
+          "law_name": "지식재산처와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "산림청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1400000",
+      "chart_id": "27",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1400000&chartId=27",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제40조",
+          "law_name": "정부조직법",
+          "article": "제40조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/산림청과그소속기관직제시행규칙",
+          "law_name": "산림청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "농촌진흥청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1390000",
+      "chart_id": "28",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1390000&chartId=28",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제40조",
+          "law_name": "정부조직법",
+          "article": "제40조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/농촌진흥청과그소속기관직제시행규칙",
+          "law_name": "농촌진흥청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "국가유산청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1833100",
+      "chart_id": "29",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1833100&chartId=29",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제39조",
+          "law_name": "정부조직법",
+          "article": "제39조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/국가유산청과그소속기관직제시행규칙",
+          "law_name": "국가유산청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "사법부(법원)",
+      "category": "헌법기관",
+      "code_num": "헌법기관",
+      "org_code": "9740000",
+      "chart_id": "3",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%ED%97%8C%EB%B2%95%EA%B8%B0%EA%B4%80&orgCode=9740000&chartId=3",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/대한민국헌법/제101조",
+          "law_name": "대한민국헌법",
+          "article": "제101조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/법원조직법",
+          "law_name": "법원조직법",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "소방청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1661000",
+      "chart_id": "30",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1661000&chartId=30",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제37조",
+          "law_name": "정부조직법",
+          "article": "제37조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/소방청과그소속기관직제시행규칙",
+          "law_name": "소방청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "경찰청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1320000",
+      "chart_id": "31",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1320000&chartId=31",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제37조",
+          "law_name": "정부조직법",
+          "article": "제37조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/경찰청과그소속기관직제시행규칙",
+          "law_name": "경찰청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "방위사업청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1690000",
+      "chart_id": "32",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1690000&chartId=32",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제36조",
+          "law_name": "정부조직법",
+          "article": "제36조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/방위사업청과그소속기관직제시행규칙",
+          "law_name": "방위사업청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "병무청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1300000",
+      "chart_id": "33",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1300000&chartId=33",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제36조",
+          "law_name": "정부조직법",
+          "article": "제36조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/병무청과그소속기관직제시행규칙",
+          "law_name": "병무청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "대검찰청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1280000",
+      "chart_id": "34",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1280000&chartId=34",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제35조",
+          "law_name": "정부조직법",
+          "article": "제35조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/검찰청사무기구에관한규정",
+          "law_name": "검찰청사무기구에관한규정",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "재외동포청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1832000",
+      "chart_id": "35",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1832000&chartId=35",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제33조",
+          "law_name": "정부조직법",
+          "article": "제33조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/재외동포청직제시행규칙",
+          "law_name": "재외동포청직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "우주항공청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1834100",
+      "chart_id": "36",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1834100&chartId=36",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/우주항공청의설치및운영에관한특별법/제6조",
+          "law_name": "우주항공청의설치및운영에관한특별법",
+          "article": "제6조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/우주항공청과그소속기관직제시행규칙",
+          "law_name": "우주항공청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "국가데이터처",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1241000",
+      "chart_id": "37",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1241000&chartId=37",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제27조",
+          "law_name": "정부조직법",
+          "article": "제27조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/국가데이터처와그소속기관직제시행규칙",
+          "law_name": "국가데이터처와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "조달청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1230000",
+      "chart_id": "38",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1230000&chartId=38",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제30조",
+          "law_name": "정부조직법",
+          "article": "제30조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/조달청과그소속기관직제시행규칙",
+          "law_name": "조달청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "관세청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1220000",
+      "chart_id": "39",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1220000&chartId=39",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제30조",
+          "law_name": "정부조직법",
+          "article": "제30조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/관세청과그소속기관직제시행규칙",
+          "law_name": "관세청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "입법부(국회)",
+      "category": "헌법기관",
+      "code_num": "헌법기관",
+      "org_code": "9700000",
+      "chart_id": "4",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%ED%97%8C%EB%B2%95%EA%B8%B0%EA%B4%80&orgCode=9700000&chartId=4",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/대한민국헌법/제40조",
+          "law_name": "대한민국헌법",
+          "article": "제40조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/국회법",
+          "law_name": "국회법",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "국세청",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1210000",
+      "chart_id": "40",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1210000&chartId=40",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제30조",
+          "law_name": "정부조직법",
+          "article": "제30조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/국세청과그소속기관직제시행규칙",
+          "law_name": "국세청과그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "식품의약품안전처",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1471000",
+      "chart_id": "41",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1471000&chartId=41",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제26조",
+          "law_name": "정부조직법",
+          "article": "제26조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/식품의약품안전처와그소속기관직제시행규칙",
+          "law_name": "식품의약품안전처와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "법제처",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1170000",
+      "chart_id": "42",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1170000&chartId=42",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제25조",
+          "law_name": "정부조직법",
+          "article": "제25조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/법제처직제시행규칙",
+          "law_name": "법제처직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "인사혁신처",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1760000",
+      "chart_id": "43",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1760000&chartId=43",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제24조",
+          "law_name": "정부조직법",
+          "article": "제24조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/인사혁신처와그소속기관직제시행규칙",
+          "law_name": "인사혁신처와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "중소벤처기업부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1421000",
+      "chart_id": "44",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1421000&chartId=44",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/중소벤처기업부와그소속기관직제시행규칙",
+          "law_name": "중소벤처기업부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "해양수산부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1192000",
+      "chart_id": "45",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1192000&chartId=45",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/해양수산부와그소속기관직제시행규칙",
+          "law_name": "해양수산부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "국토교통부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1613000",
+      "chart_id": "46",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1613000&chartId=46",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/국토교통부와그소속기관직제시행규칙",
+          "law_name": "국토교통부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "성평등가족부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1384000",
+      "chart_id": "47",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1384000&chartId=47",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/성평등가족부직제시행규칙",
+          "law_name": "성평등가족부직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "고용노동부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1492000",
+      "chart_id": "48",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1492000&chartId=48",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/고용노동부와그소속기관직제시행규칙",
+          "law_name": "고용노동부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "기후에너지환경부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1482000",
+      "chart_id": "49",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1482000&chartId=49",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/기후에너지환경부와그소속기관직제시행규칙",
+          "law_name": "기후에너지환경부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "특별감찰관",
+      "category": "기타",
+      "code_num": "기타",
+      "org_code": "1682500",
+      "chart_id": "5",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EA%B8%B0%ED%83%80&orgCode=1682500&chartId=5",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "http://www.law.go.kr/법령/특별감찰관법",
+          "law_name": "특별감찰관법",
+          "article": ""
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/특별감찰관직제",
+          "law_name": "특별감찰관직제",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "보건복지부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1352000",
+      "chart_id": "50",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1352000&chartId=50",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/보건복지부와그소속기관직제시행규칙",
+          "law_name": "보건복지부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "산업통상부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1451000",
+      "chart_id": "51",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1451000&chartId=51",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/산업통상부와그소속기관직제시행규칙",
+          "law_name": "산업통상부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "농림축산식품부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1543000",
+      "chart_id": "52",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1543000&chartId=52",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/농림축산식품부와그소속기관직제시행규칙",
+          "law_name": "농림축산식품부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "문화체육관광부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1371000",
+      "chart_id": "53",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1371000&chartId=53",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/문화체육관광부와그소속기관직제시행규칙",
+          "law_name": "문화체육관광부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "국가보훈부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1830000",
+      "chart_id": "54",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1830000&chartId=54",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/국가보훈부와그소속기관직제시행규칙",
+          "law_name": "국가보훈부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "행정안전부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1741000",
+      "chart_id": "55",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1741000&chartId=55",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/행정안전부와그소속기관직제시행규칙",
+          "law_name": "행정안전부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "국방부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1290000",
+      "chart_id": "56",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1290000&chartId=56",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/국방부와그소속기관직제시행규칙",
+          "law_name": "국방부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "법무부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1270000",
+      "chart_id": "57",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1270000&chartId=57",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/법무부와그소속기관직제시행규칙",
+          "law_name": "법무부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "통일부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1250000",
+      "chart_id": "58",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1250000&chartId=58",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/통일부와그소속기관직제시행규칙",
+          "law_name": "통일부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "외교부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1262000",
+      "chart_id": "59",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1262000&chartId=59",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/외교부와그소속기관직제시행규칙",
+          "law_name": "외교부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "민주평화통일자문회의사무처",
+      "category": "헌법상 자문기구",
+      "code_num": "헌법상 자문기구",
+      "org_code": "1081000",
+      "chart_id": "6",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%ED%97%8C%EB%B2%95%EC%83%81%20%EC%9E%90%EB%AC%B8%EA%B8%B0%EA%B5%AC&orgCode=1081000&chartId=6",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/민주평화통일자문회의법/제9조",
+          "law_name": "민주평화통일자문회의법",
+          "article": "제9조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/민주평화통일자문회의사무처직제",
+          "law_name": "민주평화통일자문회의사무처직제",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "과학기술정보통신부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1721000",
+      "chart_id": "60",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1721000&chartId=60",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/과학기술정보통신부와그소속기관직제시행규칙",
+          "law_name": "과학기술정보통신부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "교육부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1342000",
+      "chart_id": "61",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1342000&chartId=61",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제29조",
+          "law_name": "정부조직법",
+          "article": "제29조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "http://www.law.go.kr/법령/교육부와그소속기관직제시행규칙",
+          "law_name": "교육부와그소속기관직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "기획예산처",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1050050",
+      "chart_id": "62",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1050050&chartId=62",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제23조",
+          "law_name": "정부조직법",
+          "article": "제23조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/기획예산처와그소속기관직제",
+          "law_name": "기획예산처와그소속기관직제",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "재정경제부",
+      "category": "중앙행정기관",
+      "code_num": "중앙행정기관",
+      "org_code": "1053000",
+      "chart_id": "63",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80&orgCode=1053000&chartId=63",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제30조",
+          "law_name": "정부조직법",
+          "article": "제30조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/재정경제부직제시행규칙",
+          "law_name": "재정경제부직제시행규칙",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "국가인권위원회",
+      "category": "중앙행정기관에 준하는 기관",
+      "code_num": "중앙행정기관에 준하는 기관",
+      "org_code": "1620000",
+      "chart_id": "7",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80%EC%97%90%20%EC%A4%80%ED%95%98%EB%8A%94%20%EA%B8%B0%EA%B4%80&orgCode=1620000&chartId=7",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/국가인권위원회법/제3조",
+          "law_name": "국가인권위원회법",
+          "article": "제3조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/국가인권위원회와그소속기관직제",
+          "law_name": "국가인권위원회와그소속기관직제",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "고위공직자범죄수사처",
+      "category": "중앙행정기관에 준하는 기관",
+      "code_num": "중앙행정기관에 준하는 기관",
+      "org_code": "1790364",
+      "chart_id": "8",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80%EC%97%90%20%EC%A4%80%ED%95%98%EB%8A%94%20%EA%B8%B0%EA%B4%80&orgCode=1790364&chartId=8",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/행정규칙/고위공직자범죄수사처직제/",
+          "law_name": "",
+          "article": ""
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/고위공직자범죄수사처설치및운영에관한법률",
+          "law_name": "고위공직자범죄수사처설치및운영에관한법률",
+          "article": ""
+        }
+      ]
+    },
+    {
+      "name": "국무총리비서실",
+      "category": "중앙행정기관에 준하는 기관",
+      "code_num": "중앙행정기관에 준하는 기관",
+      "org_code": "1103000",
+      "chart_id": "9",
+      "detail_url": "https://org.go.kr/cop/bbs/getInstiChartDetail.do?codeNum=%EC%A4%91%EC%95%99%ED%96%89%EC%A0%95%EA%B8%B0%EA%B4%80%EC%97%90%20%EC%A4%80%ED%95%98%EB%8A%94%20%EA%B8%B0%EA%B4%80&orgCode=1103000&chartId=9",
+      "installation_basis": [
+        {
+          "label": "설치근거",
+          "url": "https://www.law.go.kr/법령/정부조직법/제21조",
+          "law_name": "정부조직법",
+          "article": "제21조"
+        }
+      ],
+      "related_laws": [
+        {
+          "label": "관련법령",
+          "url": "https://www.law.go.kr/법령/국무총리비서실직제",
+          "law_name": "국무총리비서실직제",
+          "article": ""
+        }
+      ]
+    }
+  ]
+}

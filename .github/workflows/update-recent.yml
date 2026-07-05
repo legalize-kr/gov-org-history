@@ -1,0 +1,48 @@
+name: Update recent government organization history
+
+on:
+  schedule:
+    # Sunday 23:30 KST.
+    - cron: "30 14 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gov-org-history-update-recent
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: [self-hosted]
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check recent source changes
+        run: python3 scripts/update_recent.py --out . --lookback-days 31
+
+      - name: Validate generated data
+        run: python3 scripts/validate.py .
+
+      - name: Commit and push when changed
+        run: |
+          if git diff --quiet -- data sources metadata.json stats.json; then
+            echo "No gov-org-history updates to commit."
+            exit 0
+          fi
+
+          git config user.name "legalize-kr-bot"
+          git config user.email "bot@legalize.kr"
+          git add data sources metadata.json stats.json
+
+          if git diff --cached --quiet; then
+            echo "No staged gov-org-history updates."
+            exit 0
+          fi
+
+          git commit -m "data: 정부조직 이력 주간 업데이트"
+          git push

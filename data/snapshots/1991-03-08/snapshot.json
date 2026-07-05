@@ -1,0 +1,3156 @@
+{
+  "snapshot_id": "gvrn-1991-03-08",
+  "effective_date": "1991-03-08",
+  "source": {
+    "site": "정부조직관리정보시스템",
+    "page_url": "https://org.go.kr/oam/gvrnOrgChartView.ifrm?flag=gov",
+    "endpoint": "https://org.go.kr/oam/selectGvrnOrgViewList.do",
+    "date_endpoint": "https://org.go.kr/oam/selectEfYdList.do",
+    "request_payload": {
+      "pageName": "대국민서비스 기구도 조회",
+      "efYd": "19910308"
+    },
+    "source_date_code": "19910308",
+    "source_date_label": "국가과학기술자문회의법 <1991-03-08>",
+    "fetched_at": "2026-07-05T06:36:39+00:00"
+  },
+  "node_count": 56,
+  "nodes": [
+    {
+      "id": "0000001",
+      "name": "대통령",
+      "full_name": "대통령",
+      "abbreviation": "",
+      "english_name": "President",
+      "english_abbreviation": "",
+      "parent_id": null,
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "1",
+        "level": "1",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "01",
+        "medium": "01",
+        "small": "01",
+        "chief_grade_code": "01",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5112,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "0000001",
+        "upOrgCode": "0000001",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1010000",
+      "name": "대통령비서실",
+      "full_name": "대통령비서실",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000001",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "1",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "02",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5162,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1010000",
+        "upOrgCode": "0000001",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790238",
+      "name": "민주평화통일자문회의",
+      "full_name": "민주평화통일자문회의",
+      "abbreviation": "",
+      "english_name": "The Nation Unification Advisory Council",
+      "english_abbreviation": "",
+      "parent_id": "1790239",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "1",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "05",
+        "small": "",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5190,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790238",
+        "upOrgCode": "1790239",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790237",
+      "name": "국가안전보장회의",
+      "full_name": "국가안전보장회의",
+      "abbreviation": "",
+      "english_name": "National Security Council",
+      "english_abbreviation": "NSC",
+      "parent_id": "1790239",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "1",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "05",
+        "small": "",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5189,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790237",
+        "upOrgCode": "1790239",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1020000",
+      "name": "대통령경호실",
+      "full_name": "대통령경호실",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000001",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "2",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "02",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5185,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1020000",
+        "upOrgCode": "0000001",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790239",
+      "name": "헌법상대통령자문기구",
+      "full_name": "헌법상대통령자문기구",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000001",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "3",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "05",
+        "small": "",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5156,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790239",
+        "upOrgCode": "0000001",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1083000",
+      "name": "국가과학기술자문회의",
+      "full_name": "국가과학기술자문회의",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790239",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "3",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "05",
+        "small": "",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5191,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1083000",
+        "upOrgCode": "1790239",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1040000",
+      "name": "감사원",
+      "full_name": "감사원",
+      "abbreviation": "",
+      "english_name": "Board of Audit and Inspection",
+      "english_abbreviation": "BAI",
+      "parent_id": "0000001",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "1",
+        "level": "3",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "03",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5164,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1040000",
+        "upOrgCode": "0000001",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790241",
+      "name": "국가안전기획부",
+      "full_name": "국가안전기획부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000001",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "2",
+        "level": "3",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5163,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790241",
+        "upOrgCode": "0000001",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "0000002",
+      "name": "국무총리",
+      "full_name": "국무총리",
+      "abbreviation": "",
+      "english_name": "Prime Minister",
+      "english_abbreviation": "",
+      "parent_id": "0000001",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "1",
+        "level": "4",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "02",
+        "medium": "02",
+        "small": "09",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5099,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "0000002",
+        "upOrgCode": "0000001",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1100000",
+      "name": "국무총리비서실",
+      "full_name": "국무총리비서실",
+      "abbreviation": "총리비서실",
+      "english_name": "Prime Minister's Secretariat",
+      "english_abbreviation": "PMS",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "1",
+        "level": "5",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "02",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5150,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1100000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790253",
+      "name": "정무장관(제1)실",
+      "full_name": "정무장관(제1)실",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "2",
+        "level": "5",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5151,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790253",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790254",
+      "name": "정무장관(제2)실",
+      "full_name": "정무장관(제2)실",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "3",
+        "level": "5",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5152,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790254",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790247",
+      "name": "행정조정실",
+      "full_name": "행정조정실",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "4",
+        "level": "5",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "02",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5111,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790247",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1120000",
+      "name": "비상기획위원회",
+      "full_name": "비상기획위원회",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "5",
+        "level": "5",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "04",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5186,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1120000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1170000",
+      "name": "법제처",
+      "full_name": "법제처",
+      "abbreviation": "",
+      "english_name": "Ministry of Government Legislation",
+      "english_abbreviation": "MOLEG",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "7",
+        "level": "5",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "05",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5161,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1170000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790267",
+      "name": "경제기획원",
+      "full_name": "경제기획원",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "1",
+        "level": "6",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "03",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5122,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790267",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790249",
+      "name": "통일원",
+      "full_name": "통일원",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "2",
+        "level": "6",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "03",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5153,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790249",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790250",
+      "name": "총무처",
+      "full_name": "총무처",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "3",
+        "level": "6",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "05",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5123,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790250",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790251",
+      "name": "과학기술처",
+      "full_name": "과학기술처",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "4",
+        "level": "6",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "05",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5124,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790251",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790268",
+      "name": "환경처",
+      "full_name": "환경처",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "5",
+        "level": "6",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "05",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5154,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790268",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790252",
+      "name": "공보처",
+      "full_name": "공보처",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "6",
+        "level": "6",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "05",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5160,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790252",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1180000",
+      "name": "국가보훈처",
+      "full_name": "국가보훈처",
+      "abbreviation": "보훈처",
+      "english_name": "Ministry of Patriots and Veterans Affairs",
+      "english_abbreviation": "MPVA",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "8",
+        "level": "6",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "05",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5155,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1180000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1230000",
+      "name": "조달청",
+      "full_name": "조달청",
+      "abbreviation": "",
+      "english_name": "Public Procurement Service",
+      "english_abbreviation": "PPS",
+      "parent_id": "1790267",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "1",
+        "level": "7",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5158,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1230000",
+        "upOrgCode": "1790267",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790243",
+      "name": "외무부",
+      "full_name": "외무부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "1",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5113,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790243",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790271",
+      "name": "상공부",
+      "full_name": "상공부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "10",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5132,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790271",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790272",
+      "name": "동력자원부",
+      "full_name": "동력자원부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "11",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5133,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790272",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790263",
+      "name": "건설부",
+      "full_name": "건설부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "12",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5134,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790263",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790264",
+      "name": "보건사회부",
+      "full_name": "보건사회부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "13",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5135,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790264",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1490000",
+      "name": "노동부",
+      "full_name": "노동부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "14",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5136,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1490000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790265",
+      "name": "교통부",
+      "full_name": "교통부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "15",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5137,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790265",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790266",
+      "name": "체신부",
+      "full_name": "체신부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "16",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5138,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790266",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790244",
+      "name": "내무부",
+      "full_name": "내무부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "2",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5129,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790244",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1240000",
+      "name": "통계청",
+      "full_name": "통계청",
+      "abbreviation": "",
+      "english_name": "Statistics Korea",
+      "english_abbreviation": "KOSTAT",
+      "parent_id": "1790267",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "2",
+        "level": "7",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5187,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1240000",
+        "upOrgCode": "1790267",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1360000",
+      "name": "기상청",
+      "full_name": "기상청",
+      "abbreviation": "",
+      "english_name": "Korea Meteorological Administration",
+      "english_abbreviation": "KMA",
+      "parent_id": "1790251",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "3",
+        "level": "7",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5188,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1360000",
+        "upOrgCode": "1790251",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790261",
+      "name": "재무부",
+      "full_name": "재무부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "3",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5130,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790261",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1270000",
+      "name": "법무부",
+      "full_name": "법무부",
+      "abbreviation": "",
+      "english_name": "Ministry of Justice",
+      "english_abbreviation": "MOJ",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "4",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5131,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1270000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1290000",
+      "name": "국방부",
+      "full_name": "국방부",
+      "abbreviation": "",
+      "english_name": "Ministry of National Defense",
+      "english_abbreviation": "MND",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "5",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5114,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1290000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1340000",
+      "name": "교육부",
+      "full_name": "교육부",
+      "abbreviation": "",
+      "english_name": "Ministry of Education",
+      "english_abbreviation": "MOE",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "6",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5115,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1340000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790269",
+      "name": "문화부",
+      "full_name": "문화부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "7",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5116,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790269",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790270",
+      "name": "체육청소년부",
+      "full_name": "체육청소년부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "8",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5117,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790270",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790256",
+      "name": "농림수산부",
+      "full_name": "농림수산부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "9",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5118,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790256",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1320000",
+      "name": "경찰청",
+      "full_name": "경찰청",
+      "abbreviation": "",
+      "english_name": "National Police Agency",
+      "english_abbreviation": "NPA",
+      "parent_id": "1790244",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "1",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5139,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1320000",
+        "upOrgCode": "1790244",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790260",
+      "name": "공업진흥청",
+      "full_name": "공업진흥청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790271",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "10",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5119,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790260",
+        "upOrgCode": "1790271",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1430000",
+      "name": "특허청",
+      "full_name": "특허청",
+      "abbreviation": "",
+      "english_name": "Korean Intellectual Property Office",
+      "english_abbreviation": "KIPO",
+      "parent_id": "1790271",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "11",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5120,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1430000",
+        "upOrgCode": "1790271",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1510000",
+      "name": "철도청",
+      "full_name": "철도청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790265",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "12",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5148,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1510000",
+        "upOrgCode": "1790265",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790258",
+      "name": "해운항만청",
+      "full_name": "해운항만청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790265",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "13",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5121,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790258",
+        "upOrgCode": "1790265",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790259",
+      "name": "수로국",
+      "full_name": "수로국",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790265",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "14",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "08",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5149,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790259",
+        "upOrgCode": "1790265",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1210000",
+      "name": "국세청",
+      "full_name": "국세청",
+      "abbreviation": "",
+      "english_name": "National Tax Service",
+      "english_abbreviation": "NTS",
+      "parent_id": "1790261",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "2",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5140,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1210000",
+        "upOrgCode": "1790261",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1220000",
+      "name": "관세청",
+      "full_name": "관세청",
+      "abbreviation": "",
+      "english_name": "Korea Customs Service",
+      "english_abbreviation": "KCS",
+      "parent_id": "1790261",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "3",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5142,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1220000",
+        "upOrgCode": "1790261",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1280000",
+      "name": "검찰청",
+      "full_name": "검찰청",
+      "abbreviation": "",
+      "english_name": "Supreme Prosecutors' Office",
+      "english_abbreviation": "SPO",
+      "parent_id": "1270000",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "4",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5141,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1280000",
+        "upOrgCode": "1270000",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1300000",
+      "name": "병무청",
+      "full_name": "병무청",
+      "abbreviation": "",
+      "english_name": "Military Manpower Administration",
+      "english_abbreviation": "MMA",
+      "parent_id": "1290000",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "5",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5143,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1300000",
+        "upOrgCode": "1290000",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790240",
+      "name": "문화재관리국",
+      "full_name": "문화재관리국",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790269",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "6",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "08",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5144,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790240",
+        "upOrgCode": "1790269",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1390000",
+      "name": "농촌진흥청",
+      "full_name": "농촌진흥청",
+      "abbreviation": "농진청",
+      "english_name": "Rural Development Administration ",
+      "english_abbreviation": "RDA",
+      "parent_id": "1790256",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "7",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5145,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1390000",
+        "upOrgCode": "1790256",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1400000",
+      "name": "산림청",
+      "full_name": "산림청",
+      "abbreviation": "",
+      "english_name": "Korea Forest Service",
+      "english_abbreviation": "KFS",
+      "parent_id": "1790256",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "8",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5146,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1400000",
+        "upOrgCode": "1790256",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790257",
+      "name": "수산청",
+      "full_name": "수산청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790256",
+      "root_id": "0000001",
+      "valid_from": "1991-03-08",
+      "valid_to": "1994-01-04",
+      "display": {
+        "rank_no": "9",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "000776",
+          "law_name": "국가과학기술자문회의법",
+          "effective_date": "1991-03-08",
+          "law_go_kr_url": "https://www.law.go.kr/법령/국가과학기술자문회의법",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 5147,
+        "orgEsntlCode": 0,
+        "lsiSeq": 4202,
+        "lsId": "000776",
+        "lsNm": "국가과학기술자문회의법",
+        "lsiEfYd": "19910308",
+        "efGubun": "1",
+        "orgCode": "1790257",
+        "upOrgCode": "1790256",
+        "rootOrgCode": "0000001",
+        "efYd": "19910308",
+        "edYd": "19940104",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    }
+  ]
+}

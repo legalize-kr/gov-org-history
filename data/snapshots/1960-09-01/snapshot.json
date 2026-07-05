@@ -1,0 +1,1420 @@
+{
+  "snapshot_id": "gvrn-1960-09-01",
+  "effective_date": "1960-09-01",
+  "source": {
+    "site": "정부조직관리정보시스템",
+    "page_url": "https://org.go.kr/oam/gvrnOrgChartView.ifrm?flag=gov",
+    "endpoint": "https://org.go.kr/oam/selectGvrnOrgViewList.do",
+    "date_endpoint": "https://org.go.kr/oam/selectEfYdList.do",
+    "request_payload": {
+      "pageName": "대국민서비스 기구도 조회",
+      "efYd": "19600901"
+    },
+    "source_date_code": "19600901",
+    "source_date_label": "사정위원회규정 <1960-09-01>",
+    "fetched_at": "2026-07-05T06:36:39+00:00"
+  },
+  "node_count": 25,
+  "nodes": [
+    {
+      "id": "0000002",
+      "name": "국무총리",
+      "full_name": "국무총리",
+      "abbreviation": "",
+      "english_name": "Prime Minister",
+      "english_abbreviation": "",
+      "parent_id": null,
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "1",
+        "level": "1",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "02",
+        "medium": "02",
+        "small": "09",
+        "chief_grade_code": "01",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7547,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "0000002",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790353",
+      "name": "국무원사무처",
+      "full_name": "국무원사무처",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "1",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "05",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7805,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790353",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790329",
+      "name": "심계원",
+      "full_name": "심계원",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "2",
+        "level": "2",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "03",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7575,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790329",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790354",
+      "name": "공안위원회",
+      "full_name": "공안위원회",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "1",
+        "level": "3",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "04",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7564,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790354",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790355",
+      "name": "감찰위원회",
+      "full_name": "감찰위원회",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "2",
+        "level": "3",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "04",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7577,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790355",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790351",
+      "name": "구황실재산사무총국",
+      "full_name": "구황실재산사무총국",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "3",
+        "level": "3",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7576,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790351",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790323",
+      "name": "원자력원",
+      "full_name": "원자력원",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "4",
+        "level": "3",
+        "template": "H",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "03",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7563,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790323",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790243",
+      "name": "외무부",
+      "full_name": "외무부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "1",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7548,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790243",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790264",
+      "name": "보건사회부",
+      "full_name": "보건사회부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "10",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7557,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790264",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790265",
+      "name": "교통부",
+      "full_name": "교통부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "11",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7558,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790265",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790266",
+      "name": "체신부",
+      "full_name": "체신부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "12",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7559,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790266",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790244",
+      "name": "내무부",
+      "full_name": "내무부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "2",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7549,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790244",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790261",
+      "name": "재무부",
+      "full_name": "재무부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "3",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7550,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790261",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1270000",
+      "name": "법무부",
+      "full_name": "법무부",
+      "abbreviation": "",
+      "english_name": "Ministry of Justice",
+      "english_abbreviation": "MOJ",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "4",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7551,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1270000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1290000",
+      "name": "국방부",
+      "full_name": "국방부",
+      "abbreviation": "",
+      "english_name": "Ministry of National Defense",
+      "english_abbreviation": "MND",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "5",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7552,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1290000",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790273",
+      "name": "문교부",
+      "full_name": "문교부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "6",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7553,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790273",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790333",
+      "name": "부흥부",
+      "full_name": "부흥부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "7",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7554,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790333",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790315",
+      "name": "농림부",
+      "full_name": "농림부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "8",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7555,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790315",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790271",
+      "name": "상공부",
+      "full_name": "상공부",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "0000002",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "9",
+        "level": "7",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "06",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7556,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790271",
+        "upOrgCode": "0000002",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790292",
+      "name": "전매청",
+      "full_name": "전매청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790261",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "1",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7560,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790292",
+        "upOrgCode": "1790261",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1280000",
+      "name": "검찰청",
+      "full_name": "검찰청",
+      "abbreviation": "",
+      "english_name": "Supreme Prosecutors' Office",
+      "english_abbreviation": "SPO",
+      "parent_id": "1270000",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "2",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7561,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1280000",
+        "upOrgCode": "1270000",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790336",
+      "name": "부흥위원회",
+      "full_name": "부흥위원회",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790333",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "3",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "04",
+        "chief_grade_code": "02",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7578,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790336",
+        "upOrgCode": "1790333",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790337",
+      "name": "외자청",
+      "full_name": "외자청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790333",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "4",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7562,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790337",
+        "upOrgCode": "1790333",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790360",
+      "name": "농사원",
+      "full_name": "농사원",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790315",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "5",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "04",
+        "small": "08",
+        "chief_grade_code": "09",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7756,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790360",
+        "upOrgCode": "1790315",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    },
+    {
+      "id": "1790338",
+      "name": "해무청",
+      "full_name": "해무청",
+      "abbreviation": "",
+      "english_name": "",
+      "english_abbreviation": "",
+      "parent_id": "1790271",
+      "root_id": "0000002",
+      "valid_from": "1960-09-01",
+      "valid_to": null,
+      "display": {
+        "rank_no": "6",
+        "level": "8",
+        "template": "V",
+        "shown_in_chart": "Y"
+      },
+      "classification": {
+        "large": "03",
+        "medium": "03",
+        "small": "07",
+        "chief_grade_code": "03",
+        "independent": "N"
+      },
+      "legal_basis": [
+        {
+          "basis_type": "snapshot_law",
+          "law_id": "003747",
+          "law_name": "사정위원회규정",
+          "effective_date": "1960-09-01",
+          "law_go_kr_url": "https://www.law.go.kr/법령/사정위원회규정",
+          "source_field": "lsNm"
+        }
+      ],
+      "reorganization": {
+        "source_value": "",
+        "type": "none",
+        "related_ref": ""
+      },
+      "source_fields": {
+        "gvrnNo": 7574,
+        "orgEsntlCode": 0,
+        "lsiSeq": 21007,
+        "lsId": "003747",
+        "lsNm": "사정위원회규정",
+        "lsiEfYd": "19600901",
+        "efGubun": "1",
+        "orgCode": "1790338",
+        "upOrgCode": "1790271",
+        "rootOrgCode": "0000002",
+        "efYd": "19600901",
+        "edYd": "99991231",
+        "reorganCode": "",
+        "relgoagCode": ""
+      }
+    }
+  ]
+}

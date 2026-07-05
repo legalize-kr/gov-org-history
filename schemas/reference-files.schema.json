@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalize.kr/schemas/gov-org-history/reference-files.schema.json",
+  "title": "Reference File Index",
+  "type": "object",
+  "required": ["source", "count", "records"],
+  "properties": {
+    "source": { "type": "object" },
+    "count": { "type": "integer", "minimum": 0 },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "properties": {
+          "title": { "type": "string" },
+          "attachment_id": { "type": "string" },
+          "file_id": { "type": "string" },
+          "download_url": { "type": "string" }
+        }
+      }
+    }
+  }
+}

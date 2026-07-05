@@ -1,0 +1,531 @@
+
+
+
+
+
+
+
+
+
+
+
+   
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+	<title>자료실</title>
+	
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="viewport-fit=cover, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+<link rel="stylesheet" href="/css/fonts.css" />
+<link rel="stylesheet" href="/css/line-awesome.css" />
+<link rel="stylesheet" href="/css/reset.css" />
+<link rel="stylesheet" href="/css/layout.css" />
+<link rel="stylesheet" href="/css/template.css" />
+<link rel="stylesheet" href="/css/mobile.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/common.js"></script>
+	<script type="text/javascript" src="/js/egovframework/com/cmm/fms/EgovMultiFile.js"></script>
+	<script type="text/javascript">
+		/*********************************************************
+		 * 페이징 처리 함수
+		 *********************************************************/
+		function fn_egov_select_linkPage(pageNo) {
+			document.articleForm.pageIndex.value = pageNo;
+			document.articleForm.action = "/cop/bbs/selectArticleList.do";
+			document.articleForm.submit();
+		}
+		
+		/*********************************************************
+		 * 조회 처리 함수
+		 *********************************************************/
+		function fn_egov_search_article() {
+			document.articleForm.pageIndex.value = 1;
+			document.articleForm.action = "/cop/bbs/selectArticleList.do";
+			document.articleForm.submit();
+		}
+		
+		/*********************************************************
+		 * 상세회면 처리 함수
+		 *********************************************************/
+		function fn_egov_bbs_detail(nttId, bbsId) {
+			// 사이트 키값(siteId) 셋팅.
+			document.subForm.nttId.value = nttId;
+			document.subForm.bbsId.value = bbsId;
+			document.subForm.action = "/cop/bbs/selectArticleDetail.do";
+			document.subForm.submit();
+		}
+		
+		/*********************************************************
+		 * 첨부파일 다운로드
+		 ******************************************************** */
+		function fn_egov_file_down(atchFileId) {
+			document.location.href = "/cmm/fms/FileDown.do?atchFileId="+atchFileId+"&fileSn=0";
+		}
+	</script>
+</head>
+<body>
+	
+
+
+<style>
+	#gov_top { background: #ECF0F4;height: 25px; width: 100%; position: absolute; }
+	#gov_top_inner { position: absolute; left: 5%;}
+	#gov_top_inner img, span { position: relative; }
+</style>
+
+<a class="directBtn" style="top:-100px;" href="#sub">본문바로가기</a>
+
+<div class="header">
+
+	<div id="gov_top"> 
+      <div id="gov_top_inner"> 
+       <img src="/images/ico_kor.png" alt="태극기"> 
+       <span style="color:#444;">이 누리집은 대한민국 공식 전자정부 누리집입니다.</span> 
+      </div> 
+    </div>   
+	<div></div>
+	<div></div>
+	<div></div>
+	
+    <div class="header-inner" style="margin-top:10px;">
+        <div class="headLogo">
+            <a href="https://org.go.kr"><img src="/images/mainLogo-02.svg" alt="정부조직관리정보시스템"></a>
+        </div>
+        <ul class="mainMenu">
+            <li class="level1">
+                <a href="javascript:;">조직&nbsp;&middot;&nbsp;제도소개</a>
+                <div class="subMenu">
+                    <div class="subName">조직&nbsp;&middot;&nbsp;제도소개</div>
+                    <ul class="sub-inner">
+                        <li class="level2"><a href="/intrcn/orgnzt/viewDc.do">정부조직이란</a></li>
+                        <li class="level2"><a href="/intrcn/system/viewLbcst.do">제도소개</a>
+                            <ul>
+                                <li class="level3"><a href="/intrcn/system/viewLbcst.do">총액인건비</a></li>
+                                <li class="level3"><a href="/intrcn/system/viewExecutive.do">책임운영기관</a></li>
+                                <li class="level3"><a href="/intrcn/system/viewCmit.do">행정기관위원회</a></li>
+                                <li class="level3"><a href="/intrcn/system/viewNewOrgHnfEvl.do">신설기구&nbsp;&middot;&nbsp;인력 평가</a></li>
+                                <li class="level3"><a href="/intrcn/system/viewDgnss.do">조직진단</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="level1">
+                <a href="javascript:;">정부기구도</a>
+                <div class="subMenu">
+                    <div class="subName">정부기구도</div>
+                    <ul class="sub-inner">
+                        <li class="level2"><a href="javascript:movePageGigudo();" title="새 창 열기">정부기구도<i class="las la-external-link-alt marginL8"></i></a></li>
+                        <li class="level2"><a href="/cop/bbs/getInstiChartList.do">기관별기구도</a></li>
+                        <li class="level2"><a href="/orgnzt/chart/viewEng.do">정부기구도(영문)</a></li>
+                        <li class="level2"><a href="javascript:movePageGigudoGov();" title="새 창 열기">역대정부기구도<i class="las la-external-link-alt marginL8"></i></a></li>
+                        <!--<li class="level2"><a href="/orgnzt/chnge/viewAdmnstMach.do">행정기관별 조직변천</a></li>-->
+                    </ul>
+                </div>
+            </li>
+            <li class="level1"><a href="/cop/bbs/selectArticleList.do?bbsId=BBSMSTR_400000010000">자료실</a></li>
+            <li class="level1">
+                <a href="javascript:;">통계자료</a>
+                <div class="subMenu">
+                    <div class="subName">통계자료</div>
+                    <ul class="sub-inner">
+                        <li class="level2"><a href="/psncpa/pbsvnt/analysisPage.do">공무원정원</a>
+                            <ul>
+                                <li class="level3"><a href="/psncpa/pbsvnt/analysisPage.do">공무원정원분석표</a></li>
+                                <li class="level3"><a href="/psncpa/pbsvnt/selectAll.do">공무원정원</a></li>
+                                <li class="level3"><a href="/psncpa/pbsvnt/selectIrds.do">공무원역대정부증감현황</a></li>
+                            </ul>
+                        </li>
+                        <li class="level2"><a href="/cop/bbs/getOrgMembStatsList.do?bbsId=BBSMSTR_000000010050">기구정원통계</a></li>
+                        <li class="level2"><a href="/orgnzt/cmitSttus/viewGnrl.do">행정기관위원회</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="level1">
+                <a href="javascript:movePageEpeople();" title="새 창 열기">국민생각함<i class="las la-external-link-alt marginL8"></i></a>
+            </li>
+        </ul>
+        <div class="allMenu"><a href="javascript:;" title="전체메뉴 펼침"><span>전체메뉴</span> <i class="las la-bars"></i></a></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function movePageGigudo(){
+        var openWindowGigudo = window.open('https://org.go.kr/oam/gvrnOrgChartView.ifrm','_blank','');
+        openWindowGigudo.focus();
+    }
+    
+    function movePageGigudoGov() {
+		var openWindowGigudoGov = window.open('https://org.go.kr/oam/gvrnOrgChartView.ifrm?flag=gov','_blank','');
+		openWindowGigudoGov.focus();
+	}
+    
+    function movePageEpeople(){
+        var openWindowEpeople = window.open('https://epeople.go.kr/idea/index.npaid','_blank','');
+        openWindowEpeople.focus();
+    }    
+    
+    //본문 바로가기 버튼 2022.08.25
+    jQuery(".directBtn").focusin(function(){
+        jQuery(this).css("top", "0");
+    }).focusout(function(){
+        jQuery(this).css("top", "-100px");
+    })
+</script>
+
+	
+<div class="allgnb">
+    <div class="allgnb_inner">
+        <div class="logo"><img src="/images/mainLogo-02.svg" alt="로고"></div>
+        <ul class="allmn">
+            <li class="level1">
+                <a href="javascript:void(0);">제도&nbsp;&middot;&nbsp;조직소개</a>
+                <ul>
+                    <li class="level2"><a href="/intrcn/orgnzt/viewDc.do">정부조직이란</a></li>
+                    <li class="level2">
+                        <a href="/intrcn/system/viewLbcst.do">제도소개</a>
+                        <ul>
+                            <li class="level3"><a href="/intrcn/system/viewLbcst.do">총액인건비</a></li>
+                            <li class="level3"><a href="/intrcn/system/viewExecutive.do">책임운영기관</a></li>
+                            <li class="level3"><a href="/intrcn/system/viewCmit.do">행정기관위원회</a></li>
+                            <li class="level3"><a href="/intrcn/system/viewNewOrgHnfEvl.do">신설기구&nbsp;&middot;&nbsp;인력 평가</a></li>
+                            <li class="level3"><a href="/intrcn/system/viewDgnss.do">조직진단</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:void(0);">정부기구도</a>
+                <ul>
+                    <li class="level2"><a href="javascript:movePageGigudo();" title="새 창 열기">정부기구도<i class="las la-external-link-alt marginL8"></i></a></li>
+                    <li class="level2"><a href="/cop/bbs/getInstiChartList.do">기관별기구도</a></li>
+                    <li class="level2"><a href="/orgnzt/chart/viewEng.do">정부기구도(영문)</a></li>
+                    <li class="level2"><a href="javascript:movePageGigudoGov();" title="새 창 열기">역대정부기구도<i class="las la-external-link-alt marginL8"></i></a></li>
+                    <!--<li class="level2"><a href="/orgnzt/chnge/viewAdmnstMach.do">행정별 조직변천</a></li>-->
+                </ul>
+            </li>
+            <li class="level1"><a href="javascript:void(0);">자료실</a>
+                <ul>
+                    <li class="level2"><a href="/cop/bbs/selectArticleList.do?bbsId=BBSMSTR_400000010000">자료실</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:void(0);">통계자료</a>
+                <ul>
+                    <li class="level2">
+                        <a href="/psncpa/pbsvnt/analysisPage.do">공무원정원</a>
+                        <ul>
+                            <li class="level3"><a href="/psncpa/pbsvnt/analysisPage.do">공무원정원분석표</a></li>
+                            <li class="level3"><a href="/psncpa/pbsvnt/selectAll.do">공무원정원</a></li>
+                            <li class="level3"><a href="/psncpa/pbsvnt/selectIrds.do">공무원역대정부증감현황</a></li>
+                        </ul>
+                    </li>
+                    <li class="level2"><a href="/cop/bbs/getOrgMembStatsList.do?bbsId=BBSMSTR_000000010050">기구정원통계</a></li>
+                    <li class="level2"><a href="/orgnzt/cmitSttus/viewGnrl.do">행정기관위원회</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:movePageEpeople();" title="새 창 열기">국민생각함<i class="las la-external-link-alt marginL8"></i></a>
+            </li>
+        </ul>
+        <div class="allcls"><a href="javascript:;"><span>메뉴닫기</span><i class="las la-times"></i></a></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function movePageGigudo(){
+        var openWindowGigudo = window.open('https://org.go.kr/oam/gvrnOrgChartView.ifrm','_blank','');
+        openWindowGigudo.focus();
+    }
+    
+    function movePageGigudoGov() {
+		var openWindowGigudoGov = window.open('https://org.go.kr/oam/gvrnOrgChartView.ifrm?flag=gov','_blank','');
+		openWindowGigudoGov.focus();
+	}
+    
+    function movePageEpeople(){
+        var openWindowEpeople = window.open('https://epeople.go.kr/idea/index.npaid','_blank','');
+        openWindowEpeople.focus();
+    }
+</script>
+
+	<div class="nav-wrap">
+		<div class="nav">
+			<p class="home"><a href=""><i class="las la-home"><span class="hidden-element">홈</span></i></a></p>
+			<div class="location depth1">
+				<a href="javascript:;" title="메뉴 펼치기">자료실<i class="las la-angle-down"></i></a>
+				<ul class="location-list">
+					<li class="depth-2"><a href="/hpg/intrcn/orgnzt/viewDc.do">조직&middot;제도소개</a></li>
+					<li class="depth-2"><a href="/hpg/orgnzt/chart/viewEng.do">정부기구도</a></li>
+					<li class="depth-2"><a href="/hpg/cop/bbs/selectArticleList.do?bbsId=BBSMSTR_400000010000">자료실</a></li>
+					<li class="depth-2"><a href="/hpg/psncpa/pbsvnt/analysisPage.do">통계자료</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container-wrap" id="sub" tabindex="-1">
+		<form name="articleForm" id="articleForm" action="/cop/bbs/selectArticleList.do" method="post">
+			<h1>자료실</h1>
+			<div class="boardHead">
+				<div class="search-wrap">
+					<select title="자료 종류 선택" class="selectBox" id="lct" name="lct">
+						<option value="">전체</option>
+						<option value="1" >정부기구도표</option>
+						<option value="2" >기능분류현황</option>
+						<option value="3" >조직관리지침</option>
+						<option value="4" >기타</option>
+					</select>
+					<select title="검색 구분 선택" class="selectBox" id="searchCnd" name="searchCnd">
+						<option value="0" >제목</option>
+						<option value="1" >내용</option>
+					</select>
+					<input id="searchWrd" title="검색어" name="searchWrd" type="text" placeholder="검색어를 입력하세요" value='' onkeydown="if (event.keyCoce == 13){fn_egov_search_article();return false;}" />
+					<button class="button-search" type="button" onclick="fn_egov_search_article();return false;"><span>검색</span></button>
+				</div>
+				<div>
+					<div class="total">총 <span>121</span> 건</div>
+				</div>
+			</div>
+			<ul class="boardList">
+				
+					<li>
+						<div>
+							<span class="num">81</span>
+							<a href="javascript:;" class="subject" onClick="fn_egov_bbs_detail('154','BBSMSTR_400000010000');return false;">2016 정부기구도표 (2016.1.31. 기준)</a>
+						</div>
+						<div class="d-flex align-items-center">
+							
+							<a href="javascript:fn_egov_file_down('FILEH_00000000011743');" class="downLoad"><i class="las la-download"></i>파일받기</a>
+						</div>
+					</li>
+				
+					<li>
+						<div>
+							<span class="num">80</span>
+							<a href="javascript:;" class="subject" onClick="fn_egov_bbs_detail('153','BBSMSTR_400000010000');return false;">2016년도 정부조직관리지침</a>
+						</div>
+						<div class="d-flex align-items-center">
+							
+							<a href="javascript:fn_egov_file_down('FILEH_00000000011742');" class="downLoad"><i class="las la-download"></i>파일받기</a>
+						</div>
+					</li>
+				
+					<li>
+						<div>
+							<span class="num">79</span>
+							<a href="javascript:;" class="subject" onClick="fn_egov_bbs_detail('152','BBSMSTR_400000010000');return false;">공무원소수점 정원도입</a>
+						</div>
+						<div class="d-flex align-items-center">
+							
+							<a href="javascript:fn_egov_file_down('FILEH_00000000011741');" class="downLoad"><i class="las la-download"></i>파일받기</a>
+						</div>
+					</li>
+				
+					<li>
+						<div>
+							<span class="num">78</span>
+							<a href="javascript:;" class="subject" onClick="fn_egov_bbs_detail('147','BBSMSTR_400000010000');return false;">정부기관_영어명칭_개선안(141개_기관)</a>
+						</div>
+						<div class="d-flex align-items-center">
+							
+							<a href="javascript:fn_egov_file_down('FILEH_00000000011736');" class="downLoad"><i class="las la-download"></i>파일받기</a>
+						</div>
+					</li>
+				
+					<li>
+						<div>
+							<span class="num">77</span>
+							<a href="javascript:;" class="subject" onClick="fn_egov_bbs_detail('146','BBSMSTR_400000010000');return false;">정부조직의_영어명칭에_관한_규칙(행정자치부 예규 제26호)</a>
+						</div>
+						<div class="d-flex align-items-center">
+							
+							<a href="javascript:fn_egov_file_down('FILEH_00000000011735');" class="downLoad"><i class="las la-download"></i>파일받기</a>
+						</div>
+					</li>
+				
+					<li>
+						<div>
+							<span class="num">76</span>
+							<a href="javascript:;" class="subject" onClick="fn_egov_bbs_detail('142','BBSMSTR_400000010000');return false;">2015년도 정부조직관리지침</a>
+						</div>
+						<div class="d-flex align-items-center">
+							
+							<a href="javascript:fn_egov_file_down('FILEH_00000000011731');" class="downLoad"><i class="las la-download"></i>파일받기</a>
+						</div>
+					</li>
+				
+					<li>
+						<div>
+							<span class="num">75</span>
+							<a href="javascript:;" class="subject" onClick="fn_egov_bbs_detail('140','BBSMSTR_400000010000');return false;">2015 정부기구도표 (2015.1.31. 기준)</a>
+						</div>
+						<div class="d-flex align-items-center">
+							
+							<a href="javascript:fn_egov_file_down('FILEH_00000000011729');" class="downLoad"><i class="las la-download"></i>파일받기</a>
+						</div>
+					</li>
+				
+					<li>
+						<div>
+							<span class="num">74</span>
+							<a href="javascript:;" class="subject" onClick="fn_egov_bbs_detail('138','BBSMSTR_400000010000');return false;">정부기구도(2014.11.19.)</a>
+						</div>
+						<div class="d-flex align-items-center">
+							
+							<a href="javascript:fn_egov_file_down('FILEH_00000000011727');" class="downLoad"><i class="las la-download"></i>파일받기</a>
+						</div>
+					</li>
+				
+					<li>
+						<div>
+							<span class="num">73</span>
+							<a href="javascript:;" class="subject" onClick="fn_egov_bbs_detail('127','BBSMSTR_400000010000');return false;">2014년 정부조직관리지침</a>
+						</div>
+						<div class="d-flex align-items-center">
+							
+							<a href="javascript:fn_egov_file_down('FILEH_00000000011716');" class="downLoad"><i class="las la-download"></i>파일받기</a>
+						</div>
+					</li>
+				
+					<li>
+						<div>
+							<span class="num">72</span>
+							<a href="javascript:;" class="subject" onClick="fn_egov_bbs_detail('124','BBSMSTR_400000010000');return false;">조직융합관리 결과보고서</a>
+						</div>
+						<div class="d-flex align-items-center">
+							
+							<a href="javascript:fn_egov_file_down('FILEH_00000000011713');" class="downLoad"><i class="las la-download"></i>파일받기</a>
+						</div>
+					</li>
+				
+			</ul>
+			<div class="boardPaging">
+				<a class="first" href="?pageIndex=1" onclick="fn_egov_select_linkPage(1);return false; " title="첫페이지로 이동"><span>처음</span></a><a class="prev" href="?pageIndex=1" onclick="fn_egov_select_linkPage(1);return false; " title="이전페이지로 이동"><span>이전</span></a><a href="?pageIndex=1" onclick="fn_egov_select_linkPage(1);return false; " title="1페이지이동">1</a><a href="?pageIndex=2" onclick="fn_egov_select_linkPage(2);return false; " title="2페이지이동">2</a><a href="?pageIndex=3" onclick="fn_egov_select_linkPage(3);return false; " title="3페이지이동">3</a><a href="?pageIndex=4" onclick="fn_egov_select_linkPage(4);return false; " title="4페이지이동">4</a><a class="active" onClick="return false;">5</a><a href="?pageIndex=6" onclick="fn_egov_select_linkPage(6);return false; " title="6페이지이동">6</a><a href="?pageIndex=7" onclick="fn_egov_select_linkPage(7);return false; " title="7페이지이동">7</a><a href="?pageIndex=8" onclick="fn_egov_select_linkPage(8);return false; " title="8페이지이동">8</a><a href="?pageIndex=9" onclick="fn_egov_select_linkPage(9);return false; " title="9페이지이동">9</a><a href="?pageIndex=10" onclick="fn_egov_select_linkPage(10);return false; " title="10페이지이동">10</a><a class="next" href="?pageIndex=11" onclick="fn_egov_select_linkPage(11);return false; " title="다음페이지로 이동"><span>다음</span></a><a class="last" href="?pageIndex=13" onclick="fn_egov_select_linkPage(13);return false; " title="끝페이지로 이동"><span>끝</span></a>
+
+			</div>
+			<input name="nttId" type="hidden" value="0" />
+			<input name="bbsId" type="hidden" value="BBSMSTR_400000010000" />
+			<input name="pageIndex" type="hidden" value="5" />
+		</form>
+	</div>
+	<form name="subForm" method="get" action="/cop/bbs/selectArticleDetail.do">
+		<input name="nttId" type="hidden" value="" />
+		<input name="bbsId" type="hidden" value="" />
+		<input name="pageIndex" type="hidden" value="5" />
+		<input name="lct" type="hidden" value="" />
+		<input name="mct" type="hidden" value="" />
+		<input name="sct" type="hidden" value="" />
+	</form>
+	
+
+<!-- <div class="footer">
+        <div class="footerBox align-items-center footerCont">
+            <P class="footerLogo">
+                <img src="/hpg/images/logo.svg" alt="행정안전부 로고 ">
+            </P>
+            <div class="footerText">
+                <p>(우편번호) 30112, 세종특별자치시 도움6로 42(어진동) / (우편번호) 30112, 세종특별자치시 어진동 572 정부세종청사 중앙동 행정안전부</p>
+                <p>정부민원안내콜센터 국번없이 110 / 정부조직관리시스템 1544-9392 / 044-205-2314 (월∼금 09:00∼18:00, 공휴일제외)</p>
+                <p class="textGrey">ⓒ Ministry of the Interior and Safety. All rights reserved.</p>
+            </div>
+        </div>
+</div>  -->
+
+
+<style>
+
+/* 원래 푸터 */
+
+.footer2 {position:relative;width:100%; background-color: #121212; padding:16px;}
+.footerBox2{display:flex; align-items: center; width: 100%;max-width: 1280px;margin: 0 auto;}
+.footerLogo2 {position: relative;width:240px;padding:24px;}
+.footerText2 {width:80%;color:#f4f4f4; font-size:16px;padding:16px;}
+.textGrey2 {color:#999;}
+
+
+.footer2 .footerBox2.footerCont2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.footer2 {
+	margin: 0 0 10px 0;
+}
+
+
+.footerLogo2 {
+    position: relative;    
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+}
+
+.footer2 .footerLogo2 img {
+	display: block;
+	width: 180px;
+	height: auto;
+}
+
+.footer2 .footerText2 {
+	margin-left: 0 !important;
+	width: 100%;
+}
+
+.footer2 .footerText2 p {
+	margin: 0 0 4px 0;
+}
+
+.footerLine2 {
+	width: 100%;
+	height:1px;
+	margin:15px 0;
+	background:rgba(255,255,255,0.55); 
+}
+
+.footerLogo2 {
+	display : flex;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: nowrap;
+}
+
+.footerLogoText {
+	color: #fff;
+	font-size: 14px;
+	white-space: nowrap;
+}
+
+</style>
+
+<div class="footer2">
+        <div class="footerBox2 align-items-center footerCont2 ">
+            <P class="footerLogo2">
+               <img src="/images/logo.svg" alt="행정안전부 로고 ">
+            <!--     <img src="/hpg/images/mainLogo-02.svg" alt="정부조직관리정보시스템"> -->
+            </P>
+            <div class="footerText2">
+                <p>(우편번호) 30112, 세종특별자치시 도움6로 42(어진동) / (우편번호) 30112, 세종특별자치시 어진동 572 정부세종청사 중앙동 행정안전부</p>
+                <p>정부민원안내콜센터 국번없이 110 / 정부조직관리시스템 1544-9392 / 044-205-2314 (월∼금 09:00∼18:00, 공휴일제외)</p>
+                
+                <div class="footerLine2"></div>                
+                <p class="textGrey2">ⓒ Ministry of the Interior and Safety. All rights reserved.</p>
+            </div>    
+            
+            <div class="footerLogo2">
+               <img src="/images/org_logo.png" alt="조직관리정보시스템 로고 ">  
+               <span class="footerLogoText">이 누리집은 행정안전부 누리집입니다.</span>
+            </div>
+        </div> 
+</div>
+
+
+<a class="pageTop" href="javascript:;" title="맨 위로 이동하기"><span>맨 위로 이동하기</span></a>
+</body>
+</html>
