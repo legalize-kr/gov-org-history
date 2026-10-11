@@ -27,6 +27,6 @@
 
 ## 주기 업데이트
 
-- `.github/workflows/update-recent.yml`은 매주 일요일 23:30 KST에 self-hosted runner에서 실행됩니다.
+- `.github/workflows/update-recent.yml`은 매주 일요일 23:30 KST에 GitHub 제공 Ubuntu 서버에서 실행됩니다.
 - workflow는 `python3 scripts/update_recent.py --out . --lookback-days 31`로 최근 31일 범위의 스냅샷, 최신 스냅샷, 기관별기구도, 자료실, 행정기관별 조직변천 목록을 비교합니다.
 - 의미 있는 변경이 있을 때만 `data/`, `sources/`, `metadata.json`, `stats.json`을 갱신하고 `data: 정부조직 이력 주간 업데이트` 커밋을 생성합니다.

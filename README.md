@@ -55,7 +55,7 @@ python3 scripts/validate.py .
 
 ## 자동 업데이트
 
-`.github/workflows/update-recent.yml`은 매주 일요일 23:30 KST에 self-hosted runner에서 실행됩니다. workflow는 최근 31일 범위의 정부기구도 스냅샷, 최신 스냅샷, 현재 기관별기구도, 자료실 및 행정기관별 조직변천 파일 목록을 비교하고, 의미 있는 변경이 있을 때만 `data/`, `sources/`, `metadata.json`, `stats.json`을 갱신해 커밋합니다.
+`.github/workflows/update-recent.yml`은 매주 일요일 23:30 KST에 GitHub 제공 Ubuntu 서버에서 실행됩니다. workflow는 최근 31일 범위의 정부기구도 스냅샷, 최신 스냅샷, 현재 기관별기구도, 자료실 및 행정기관별 조직변천 파일 목록을 비교하고, 의미 있는 변경이 있을 때만 `data/`, `sources/`, `metadata.json`, `stats.json`을 갱신해 커밋합니다.
 
 수동으로 같은 확인을 실행할 때는 다음 명령을 사용합니다.
 
@@ -63,6 +63,11 @@ python3 scripts/validate.py .
 python3 scripts/update_recent.py --out . --lookback-days 31
 python3 scripts/validate.py .
 ```
+
+예약 작업이 `disabled_inactivity` 상태이면 GitHub Actions에서 워크플로를 활성화해야 합니다.
+활성화 후 `workflow_dispatch` 실행의 성공 여부를 확인합니다.
+현재 구성은 Python 3.12와 표준 라이브러리만 사용하며, 별도 실행 서버를 요구하지 않습니다.
+데이터에 변경이 없어도 성공 실행 시각으로 갱신 작업의 동작 여부를 판단합니다.
 
 특정 시행일만 다시 가져올 때는 다음처럼 실행합니다.
 
