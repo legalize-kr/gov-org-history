@@ -1,7 +1,7 @@
 {
   "name": "gov-org-history",
   "description": "Korean government organization chart snapshots, institution legal bases, and reorganization edges.",
-  "generated_at": "2026-10-11T12:53:25+00:00",
+  "generated_at": "2026-10-11T19:18:11+00:00",
   "sources": [
     "https://org.go.kr/oam/gvrnOrgChartView.ifrm?flag=gov",
     "https://org.go.kr/oam/selectGvrnOrgViewList.do",

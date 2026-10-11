@@ -1,7 +1,7 @@
 {
   "source": {
     "page_url": "https://org.go.kr/cop/bbs/selectArticleList.do?bbsId=BBSMSTR_400000010000",
-    "fetched_at": "2026-10-11T12:52:22+00:00",
+    "fetched_at": "2026-10-11T19:16:22+00:00",
     "pages": [
       {
         "page": 1,
@@ -98,12 +98,12 @@
       "download_url": "https://org.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_A00000000050698&fileSn=0"
     },
     {
-      "title": "2025년도 정부조직관리지침",
-      "ntt_id": "223",
+      "title": "2025년 정부기구도 (2025.10.31. 기준)",
+      "ntt_id": "221",
       "bbs_id": "BBSMSTR_400000010000",
-      "detail_url": "https://org.go.kr/cop/bbs/selectArticleDetail.do?nttId=223&bbsId=BBSMSTR_400000010000",
-      "attachment_id": "FILE_A00000000050699",
-      "download_url": "https://org.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_A00000000050699&fileSn=0"
+      "detail_url": "https://org.go.kr/cop/bbs/selectArticleDetail.do?nttId=221&bbsId=BBSMSTR_400000010000",
+      "attachment_id": "FILE_A00000000050697",
+      "download_url": "https://org.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_A00000000050697&fileSn=0"
     },
     {
       "title": "2024년 정부기능분류 운영현황",
@@ -114,12 +114,12 @@
       "download_url": "https://org.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000048950&fileSn=0"
     },
     {
-      "title": "2025년 정부기구도 (2025.10.31. 기준)",
-      "ntt_id": "221",
+      "title": "2025년도 정부조직관리지침",
+      "ntt_id": "223",
       "bbs_id": "BBSMSTR_400000010000",
-      "detail_url": "https://org.go.kr/cop/bbs/selectArticleDetail.do?nttId=221&bbsId=BBSMSTR_400000010000",
-      "attachment_id": "FILE_A00000000050697",
-      "download_url": "https://org.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_A00000000050697&fileSn=0"
+      "detail_url": "https://org.go.kr/cop/bbs/selectArticleDetail.do?nttId=223&bbsId=BBSMSTR_400000010000",
+      "attachment_id": "FILE_A00000000050699",
+      "download_url": "https://org.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_A00000000050699&fileSn=0"
     },
     {
       "title": "2024년 정부기구도표 (2024.6.30. 기준)",
@@ -154,12 +154,12 @@
       "download_url": "https://org.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000046667&fileSn=0"
     },
     {
-      "title": "2023년 정부기구도표 (2023.3.31. 기준)",
-      "ntt_id": "215",
+      "title": "`25년 사전진단 결과",
+      "ntt_id": "225",
       "bbs_id": "BBSMSTR_400000010000",
-      "detail_url": "https://org.go.kr/cop/bbs/selectArticleDetail.do?nttId=215&bbsId=BBSMSTR_400000010000",
-      "attachment_id": "FILE_000000000046667",
-      "download_url": "https://org.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000046667&fileSn=0"
+      "detail_url": "https://org.go.kr/cop/bbs/selectArticleDetail.do?nttId=225&bbsId=BBSMSTR_400000010000",
+      "attachment_id": "FILE_A00000000050701",
+      "download_url": "https://org.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_A00000000050701&fileSn=0"
     },
     {
       "title": "`24년 사전진단 결과",
