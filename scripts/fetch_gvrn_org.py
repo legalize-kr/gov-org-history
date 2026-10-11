@@ -16,6 +16,9 @@ from typing import Any
 from urllib import request
 
 
+from source_http import read_source
+
+
 BASE_URL = "https://org.go.kr"
 REFERER = "https://org.go.kr/oam/gvrnOrgChartView.ifrm?flag=gov"
 PAGE_NAME = "대국민서비스 기구도 조회"
@@ -62,8 +65,7 @@ def post_json(path: str, payload: dict[str, Any]) -> dict[str, Any]:
         },
         method="POST",
     )
-    with request.urlopen(req, timeout=30) as res:
-        return json.loads(res.read().decode("utf-8"))
+    return json.loads(read_source(req).decode("utf-8"))
 
 
 def law_go_kr_url(law_name: str | None) -> str | None:

@@ -14,6 +14,9 @@ from typing import Any
 from urllib import request
 
 
+from source_http import read_source
+
+
 BASE_URL = "https://org.go.kr"
 LIBRARY_URL = BASE_URL + "/cop/bbs/selectArticleList.do?bbsId=BBSMSTR_400000010000"
 CHANGE_URL = BASE_URL + "/orgnzt/chnge/viewAdmnstMach.do"
@@ -25,8 +28,7 @@ def now_iso() -> str:
 
 def fetch_text(url: str) -> str:
     req = request.Request(url, headers={"User-Agent": "gov-org-history/0.1"})
-    with request.urlopen(req, timeout=30) as res:
-        return res.read().decode("utf-8")
+    return read_source(req).decode("utf-8")
 
 
 class LibraryParser(HTMLParser):
