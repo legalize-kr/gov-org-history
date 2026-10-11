@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T06:36:39+00:00",
+  "generated_at": "2026-10-11T12:45:24+00:00",
   "description": "Edges derived from org.go.kr reorganCode and relgoagCode fields.",
   "edges": [
     {
@@ -637,6 +637,84 @@
         "field": "reorganCode",
         "related_field": "relgoagCode",
         "snapshot": "data/snapshots/2026-01-02/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2026-10-02",
+      "type": "reorganized",
+      "source_value": "개편",
+      "source_ref": "1280000",
+      "target_org_id": "1282000",
+      "target_name": "공소청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2026-10-02/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2026-10-02",
+      "type": "reorganized",
+      "source_value": "개편",
+      "source_ref": "1280000",
+      "target_org_id": "1515000",
+      "target_name": "중대범죄수사청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2026-10-02/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2026-10-02",
+      "type": "promoted",
+      "source_value": "승격",
+      "source_ref": "국가보훈처",
+      "target_org_id": "1830000",
+      "target_name": "국가보훈부",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2026-10-02/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2026-10-02",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1832000",
+      "target_name": "재외동포청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2026-10-02/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2026-10-02",
+      "type": "reorganized",
+      "source_value": "개편",
+      "source_ref": "1550000",
+      "target_org_id": "1833100",
+      "target_name": "국가유산청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2026-10-02/snapshot.json"
+      }
+    },
+    {
+      "effective_date": "2026-10-02",
+      "type": "created",
+      "source_value": "신설",
+      "source_ref": "",
+      "target_org_id": "1834100",
+      "target_name": "우주항공청",
+      "evidence": {
+        "field": "reorganCode",
+        "related_field": "relgoagCode",
+        "snapshot": "data/snapshots/2026-10-02/snapshot.json"
       }
     }
   ]

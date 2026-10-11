@@ -1,9 +1,20 @@
 {
   "source": {
     "endpoint": "https://org.go.kr/oam/selectEfYdList.do",
-    "fetched_at": "2026-07-05T06:36:39+00:00"
+    "fetched_at": "2026-10-11T12:45:24+00:00"
   },
   "available_dates": [
+    {
+      "date_code": "20261002",
+      "effective_date": "2026-10-02",
+      "label": "정부조직법 <2026-10-02>",
+      "source": {
+        "cd": "20261002",
+        "nm": "정부조직법 <2026-10-02>",
+        "orgCode": null,
+        "orgNm": null
+      }
+    },
     {
       "date_code": "20260102",
       "effective_date": "2026-01-02",
@@ -2075,6 +2086,13 @@
       "label": "정부조직법 <2026-01-02>",
       "path": "data/snapshots/2026-01-02/snapshot.json",
       "node_count": 67
+    },
+    {
+      "effective_date": "2026-10-02",
+      "date_code": "20261002",
+      "label": "정부조직법 <2026-10-02>",
+      "path": "data/snapshots/2026-10-02/snapshot.json",
+      "node_count": 68
     }
   ]
 }
