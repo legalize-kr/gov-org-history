@@ -99,3 +99,8 @@ python3 scripts/validate.py .
 ## 상태
 
 초기 구성은 정부조직관리정보시스템의 공개 JSON과 HTML 목록을 보존하는 v1입니다. 법령 revision crosswalk, 첨부 파일 본문 다운로드, Markdown 보고서 생성, `legalize-web`/CLI 연동은 후속 단계로 분리합니다.
+
+## 라이선스
+
+이 저장소에서 작성한 코드와 문서는 [Apache License 2.0](LICENSE-APACHE) 또는 [MIT License](LICENSE-MIT) 중 하나를 선택하여 사용할 수 있습니다.
+수집한 공공 데이터와 원천 응답에는 해당 원천의 이용 조건이 적용됩니다. 제3자 자료에는 해당 자료의 원래 이용 조건이 적용됩니다.
